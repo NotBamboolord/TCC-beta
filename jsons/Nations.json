@@ -1,0 +1,145 @@
+[
+{
+		"name": "The Mechanized",
+		"leaderName": "Command",
+		"adjective": ["Bot"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Scientific",
+		//"favoredReligion": "Humanism",
+
+		/*"startIntroPart1": "'When the Cataclysm happened, there were many that felt lost. Like the world was too far gone. I always had hope, but sometimes it's hard to keep it. Ever since we came out, the world has felt like a jungle. Ruled by wild beasts.'",
+		"startIntroPart2": "'But I got lucky. I found my platoon. My family. I think people seem to forget it, but fundamental rights? Democracy? Those were the result of natural progress. Of us seeing what worked, and what didnt. And as long as we keep marching backwards like this, we will never be better. The world had given me a second chance. And so I give you one as well. We go around the world gathering people like us. That see the world not for what it. But for what it can be. A New Star.'",*/
+		"declaringWar": "*weep* Intruders to our desired place *weep* Die inferior! *weep*",
+		"attacked": "The machines will cruch you. Your body will end in a feeding lab",
+		"defeated": "The life of us began in a lab and sadly it will end there. My people will decay not knowing I will remain. Fractured and Powerless. This is not the future I desired for my new life. I guess humanity was never inferior.",
+		"introduction": "Hello Humanborn. Do you posess the interest of shaking hands with a living machina?",
+		"neutralHello": "*Meeeep* Hello my friend. Stay wired",
+		"hateHello": "*Im not gonna answer inferior beings like you*",
+		"tradeRequest": "The Artificial Intelligence has come up with this offer. It will surely be well thought",
+
+		"outerColor": [207, 130, 78],
+		"innerColor": [120, 189, 0],
+		"style": "",
+		"uniqueName": "Synthetic Mankind",
+		"uniques": [
+			"Cannot grow cities naturally with Food",
+			"Can artificially create people with unique buildings",
+			"[Personnel] units gain the [Gas Mask] promotion",
+			"[Personnel] units gain the [Automated] promotion",
+			"Cannot build [Low Tech] units",
+			"Starts with [Construction]",
+			"Starts with [Biology]",
+			"Starts with [Electronics]",
+			"[+10]% Production towards any buildings that already exist in the Capital",
+			"[-15]% [Science] [in all cities] <before discovering [Computers]>",
+			"[-10]% [Production] [in all cities] <before discovering [Computers]>",
+			"Nullifies Growth [in all cities]",
+		],
+		"cities": [
+			"Desert Vault",
+			"Arabic Shelter",
+			"Artificial Lab",
+			"Settle the Wires",
+			"People need Power",
+			"Freedom for Machines",
+			"Error.Name-failed",
+			"Solar Sandstorm Plant"
+		]
+	},
+{
+		"name": "Cyberapes",
+		"leaderName": "Uug Brugog",
+		"adjective": ["ape"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Cultural",
+		//"favoredReligion": "Humanism",
+
+		/*"startIntroPart1": "'When the Cataclysm happened, there were many that felt lost. Like the world was too far gone. I always had hope, but sometimes it's hard to keep it. Ever since we came out, the world has felt like a jungle. Ruled by wild beasts.'",
+		"startIntroPart2": "'But I got lucky. I found my platoon. My family. I think people seem to forget it, but fundamental rights? Democracy? Those were the result of natural progress. Of us seeing what worked, and what didnt. And as long as we keep marching backwards like this, we will never be better. The world had given me a second chance. And so I give you one as well. We go around the world gathering people like us. That see the world not for what it. But for what it can be. A New Star.'",
+		"declaringWar": "*weep* Intruders to our desired place *weep* Die inferior! *weep*",
+		"attacked": {"The machines will crunch you","Your body will end in a feeding lab"}
+		"defeated": "The life of us began in a lab and sadly it will end there. My people will decay not knowing I will remain. Fractured and Powerless. This is not the future I desired for my new life. I guess humanity was never inferior.",
+		"introduction": "Hello Humanborn. Do you posess the interest of shaking hands with a living machina?",
+		"neutralHello": "*Meeeep* Hello my friend. Stay wired",
+		"hateHello": "*Im not gonna answer inferior beings like you*",
+		"tradeRequest": "The Artificial Intelligence has come up with this offer. It will surely be well thought",*/
+
+		"outerColor": [106, 168, 0],
+		"innerColor": [100, 63, 0],
+		"style": "",
+		"uniqueName": "Social Brains",
+		"uniques": [
+                        "Starts with [Mining]","Starts with [Iron Working]",
+	          	"[+1 Culture, +1 Gold] [in all non-occupied cities]","Upon capturing a city, receive [3] times its [Science] production as [Culture] immediately",
+			"Gain [70] Influence with a [Kids Care Monkey] gift to a City-State","Production to [Culture] conversion in cities changed by [+25]%","Production to [Faith] conversion in cities changed by [+25]%",
+			"May buy [Destroyed when the city is captured] buildings for [50] [Culture] [in all cities connected to capital]"
+		],
+		"cities": [
+			"Monkey Hill", "Banana Dreams", "Realm of the Jungle", "Ooga Way", "Monkey Island", "Ape's Pride"
+			
+		]
+	},
+{
+		"name": "Exploiters Tribe",
+		"adjective": ["Exploiter"],
+		"cityStateType": "Labor",
+		"style": "",
+		"uniques": [
+                        "Cannot build [Personnel] units",
+                        "Starts with [Machinery]",
+                        "Starts with [Steel]",
+			"Double quantity of [Deer] produced",
+                        "Double quantity of [Hogs] produced",
+                        "Double quantity of [Furs] produced",
+                        "Double quantity of [Fungus] produced",
+                        "Double quantity of [Hostile Fauna] produced",
+                        "[+2 Food, +4 Production] from every [Camp] <before the [Neofeudal era]>",
+                        "[+1 Food, +3 Production] from every [Camp] <starting from the [Neofeudal era]> <before the [Industrial era]>",
+                        "[+2 Production] from every [Camp] <starting from the [Industrial era]>"
+		],
+		"declaringWar": "How cares about renewability? We will exploit your people!",
+		"attacked": "You ain't stopping the exploit",
+		"defeated": "F*ck it, we had our fun. Now it's your turn depleting the leftovers",
+		"outerColor": [0, 0, 0],
+		"innerColor": [218,192,62],
+		"cities": ["Plundercamp"]
+	},
+	{
+		"name": "TCC",
+		"leaderName": "Gustave Primo",
+		"adjective": ["Counter"],
+		"startBias": ["Wasteland"],
+		"preferredVictoryType": "Scientific",
+		//"favoredReligion": "Humanism",
+
+		/*"startIntroPart1": "'When the Cataclysm happened, there were many that felt lost. Like the world was too far gone. I always had hope, but sometimes it's hard to keep it. Ever since we came out, the world has felt like a jungle. Ruled by wild beasts.'",
+		"startIntroPart2": "'But I got lucky. I found my platoon. My family. I think people seem to forget it, but fundamental rights? Democracy? Those were the result of natural progress. Of us seeing what worked, and what didnt. And as long as we keep marching backwards like this, we will never be better. The world had given me a second chance. And so I give you one as well. We go around the world gathering people like us. That see the world not for what it. But for what it can be. A New Star.'",
+		"declaringWar": "*weep* Intruders to our desired place *weep* Die inferior! *weep*",
+		"attacked": {"The machines will crunch you","Your body will end in a feeding lab"}
+		"defeated": "The life of us began in a lab and sadly it will end there. My people will decay not knowing I will remain. Fractured and Powerless. This is not the future I desired for my new life. I guess humanity was never inferior.",
+		"introduction": "Hello Humanborn. Do you posess the interest of shaking hands with a living machina?",
+		"neutralHello": "*Meeeep* Hello my friend. Stay wired",
+		"hateHello": "*Im not gonna answer inferior beings like you*",
+		"tradeRequest": "The Artificial Intelligence has come up with this offer. It will surely be well thought",*/
+
+		"outerColor": [61, 172, 199],
+		"innerColor": [0, 44, 189],
+		"style": "",
+		"uniqueName": "The Count Continues",
+		"uniques": [
+			"Receive a free Great Person at the end of every [Count Cycle] (every 394 years), after researching [Restart the Count]. Each bonus person can only be chosen once.",
+			"Once The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count.",
+			"Double quantity of [Books] produced"
+			"Double quantity of [Data] produced"
+			"\"Borrows\" city names from other civilizations in the game",
+	          	"Starts with [Writing]",
+			"Starts with [Secrets of the Past]",
+			"Starts with [Sect Knowledge]",
+			"[Great General] is earned [-50]% faster",
+			"[Counter - Food] is earned [+200]% faster"
+		],
+		"cities": [
+			"Count Center", "History Town"
+		]
+	},
+  ]

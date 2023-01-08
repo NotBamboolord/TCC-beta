@@ -1,0 +1,34 @@
+[
+	{
+		"columnNumber": 0,
+		"era": "Decivilized era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 100,
+		"techs": [
+			{
+				"name": "Sect Knowledge",
+				"row": 7,
+				"quote": "",
+				"uniques": ["Only available <before discovering [The Wheel]>","[+1 Faith, +1 Science] from every specialist [in all cities]"]
+			}
+		]
+	},
+	{
+		"columnNumber": 1,
+		"era": "Decivilized era",
+		"techCost": 60,
+		"buildingCost": 60,
+		"wonderCost": 125,
+		"techs": [
+			{
+				"name": "Restart the Count",
+				"cost": 5,
+				"row": 11,
+				"prerequisites": ["Sect Knowledge"],
+				"uniques": ["Starts the Long Count for TCC", "Free [Counter - History] appears"],
+				"quote": "Let us count every day after the bombs fell, so that History will never die!"
+			},
+		]
+	},
+]

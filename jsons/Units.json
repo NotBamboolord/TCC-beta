@@ -1,0 +1,216 @@
+[
+  {
+		"name": "Gunner Drone",
+    		"replaces": "Blimp",
+    		"uniqueTo": "The Mechanized",
+		"unitType": "Helicopter",
+		"range": 1,
+		"interceptRange": 1,
+		"movement": 4,
+		"strength": 12,
+		"rangedStrength": 18,
+		"cost": 55,
+		"requiredTech": "Construction",
+		"obsoleteTech": "Gyroscopes",
+		"upgradesTo": "Helicopter",
+		"uniques": [
+			"[+25]% Strength <vs [Armor] units>",
+			"Can move after attacking",
+			"[-25]% Strength <vs cities> <when attacking>",
+			"May withdraw before melee ([75]%)",
+			"Never appears as a Barbarian unit"
+			"Consumes [1] [Power]",
+		],
+		"promotions": ["Automated"]
+		"hurryCostModifier": 20,
+		"attackSound": "shot"
+	},
+  {
+		"name": "Terrain Controller",
+		"unitType": "Scrapper",
+		"uniqueTo": "Cyberapes",
+		"replaces": "Militia",
+		"movement": 3,
+		"strength": 27,
+		"cost": 60,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Soldier",
+		"uniques": [
+			"Low Tech",
+			"[+33]% Strength <vs [Siege] units>",
+			"[+33]% Strength <vs [Personnel] units>",
+		],
+                "promotions": ["Reconnaissance I","Guerilla Warfare I"]
+		"attackSound": "metalhit"
+	},
+  {
+		"name": "Scouter Group",
+		"unitType": "Mounted",
+		"uniqueTo": "Cyberapes",
+		"replaces": "Scout",
+		"movement": 3,
+		"strength": 14,
+		"cost": 35,
+		"upgradesTo": "Hussar",
+		"hurryCostModifier": 20,
+		"obsoleteTech": "Rifling",
+		"uniques": ["Low Tech", "Ignores terrain cost","[-50]% Strength <vs cities> <when attacking>"],
+		"promotions": ["Pursuit", "[Scouter Group] ability"],
+		"attackSound": "nonmetalhit"
+	},
+  
+	{
+		"name": "Kids Care Monkey",
+		"unitType": "Civilian",
+		"uniqueTo": "Cyberapes",
+		"replaces": "Mechanized Worker",
+		"movement": 3,
+		"cost": 1,
+		"uniques": [
+			"Unbuildable",
+			"Can construct [Playground]",
+			"Can build [Salvage site] improvements on tiles",
+			"Can build [Mine] improvements on tiles"
+		]
+	},
+{
+		"name": "Brute",
+                "uniqueTo": "Exploiters Tribe",
+                "replaces": "Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"hurryCostModifier": 20,
+		"uniques": ["Can build [Land] improvements on tiles","[+1] Sight","[-100]% maintenance costs"],
+		"cost": 50
+	},
+
+
+
+
+
+
+
+
+	{
+		"name": "Counter - Food",
+                "uniqueTo": "TCC",
+                "replaces": "Great Administrator",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can start an [16]-turn golden age",
+			"Can construct [Settlement]",
+			"Great Person - [Food]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Sectleader",
+                "uniqueTo": "TCC",
+                "replaces": "Great Sage",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can [Spread Religion] [4] times",
+			"Removes other religions when spreading religion",
+			"May found a religion",
+			"May enhance a religion",
+			"May enter foreign tiles without open borders",
+			"When spreading religion to a city, gain [3] times the amount of followers of other religions as [Culture]",
+			"Can [Remove Foreign religions from your own cities] [2] times",
+			"[-1] Sight",
+			"Great Person - [Faith]",
+			"Unbuildable",
+			"Uncapturable",
+			"Religious Unit",
+			"Hidden when religion is disabled",
+			"Takes your religion over the one in their birth city"
+		],
+		"movement": 2,
+		"religiousStrength": 1000
+	},
+	{
+		"name": "Counter - History",
+                "uniqueTo": "TCC",
+                "replaces": "Great Scientist",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can start an [12]-turn golden age",
+			"Can construct [Oracle]",
+			"Can construct [Academy] <starting from the [Neofeudal era]>",
+			"Great Person - [History]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Counter - Economy",
+                "uniqueTo": "TCC",
+                "replaces": "Great Merchant",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [90] Influence",
+			"Can start an [12]-turn golden age",
+			"Great Person - [Economy]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Counter - Industry",
+                "uniqueTo": "TCC",
+                "replaces": "Great Engineer",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can construct [Citadel]",
+			"Can construct [Manufactory]",
+			"Great Person - [Industry]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Death Counter",
+                "uniqueTo": "TCC",
+                "replaces": "Great General",
+		"unitType": "Civilian",
+		"uniques": [
+			"[+25]% Strength bonus for [Military] units within [1] tiles",
+			"Free [Death Laser] appears <by consuming this unit>",
+			"Great Person - [War]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Death Laser",
+                "uniqueTo": "TCC",
+                "replaces": "Machine Gun",
+		"unitType": "Siege",
+		"range": 1,
+		"movement": 2,
+		"strength": 100,
+		"rangedStrength": 10,
+		"cost": 450,
+		"obsoleteTech": "The Wheel",
+		"uniques": [
+			"[-90]% Strength <vs [Melee] units> <when defending>",
+			"[-2] Sight",
+			"Must set up to ranged attack",
+			"[+1500]% Strength <when attacking>",
+			"Damage is ignored when determining unit Strength",
+			"[+200]% maintenance costs",
+			"Can only heal by pillaging",
+			"[-33]% Strength <vs [Armor] units>",
+			"Unbuildable",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": [ "Promotion Nullifier"],
+		"hurryCostModifier": 20,
+		"attackSound": "phasers"
+	},
+  ]
