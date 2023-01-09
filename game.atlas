@@ -1,0 +1,202 @@
+
+game.png
+size: 2048, 256
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+BuildingIcons/Sectleading Chamber
+  rotate: false
+  xy: 1252, 20
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+MayaCalendar/1
+  rotate: false
+  xy: 1460, 62
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+MayaCalendar/10
+  rotate: false
+  xy: 1676, 112
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+MayaCalendar/11
+  rotate: false
+  xy: 1734, 112
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+MayaCalendar/12
+  rotate: false
+  xy: 1792, 112
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+MayaCalendar/13
+  rotate: false
+  xy: 1850, 112
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+MayaCalendar/14
+  rotate: false
+  xy: 1908, 112
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+MayaCalendar/15
+  rotate: false
+  xy: 1966, 112
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+MayaCalendar/16
+  rotate: false
+  xy: 1460, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+MayaCalendar/17
+  rotate: false
+  xy: 1518, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+MayaCalendar/18
+  rotate: false
+  xy: 1576, 4
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+MayaCalendar/19
+  rotate: false
+  xy: 1634, 54
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+MayaCalendar/2
+  rotate: false
+  xy: 1676, 170
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+MayaCalendar/3
+  rotate: false
+  xy: 1518, 62
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+MayaCalendar/4
+  rotate: false
+  xy: 1734, 170
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+MayaCalendar/5
+  rotate: false
+  xy: 1576, 62
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+MayaCalendar/6
+  rotate: false
+  xy: 1792, 170
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+MayaCalendar/7
+  rotate: false
+  xy: 1850, 170
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+MayaCalendar/8
+  rotate: false
+  xy: 1908, 170
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+MayaCalendar/9
+  rotate: false
+  xy: 1966, 170
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+NationIcons/TCC
+  rotate: false
+  xy: 1568, 120
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Counter - Economy
+  rotate: false
+  xy: 4, 20
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Counter - Food
+  rotate: false
+  xy: 212, 20
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Counter - History
+  rotate: false
+  xy: 420, 20
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Counter - Industry
+  rotate: false
+  xy: 628, 20
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Death Counter
+  rotate: false
+  xy: 836, 20
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/Death Laser
+  rotate: false
+  xy: 1460, 120
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Sectleader
+  rotate: false
+  xy: 1044, 20
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
