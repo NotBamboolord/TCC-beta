@@ -87,7 +87,7 @@
 		"unitType": "Civilian",
 		"uniques": [
 			"[+25]% Strength bonus for [Military] units within [1] tiles",
-			"Free [Death Laser] appears <by consuming this unit>",
+			"Can transform to [Death Laser]",
 			"Great Person - [War]",
 			"Unbuildable",
 			"Uncapturable"
@@ -106,6 +106,7 @@
 		"cost": 450,
 		"obsoleteTech": "The Wheel",
 		"uniques": [
+			"Can transform to [Death Counter]",
 			"[-90]% Strength <vs [Melee] units> <when defending>",
 			"[-2] Sight",
 			"Must set up to ranged attack",
@@ -114,6 +115,8 @@
 			"[+200]% maintenance costs",
 			"Can only heal by pillaging",
 			"[-33]% Strength <vs [Armor] units>",
+			"Great Unit - War",
+			"Cannot be purchased",
 			"Unbuildable",
 			"Never appears as a Barbarian unit"
 		],
