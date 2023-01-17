@@ -2,7 +2,7 @@
 	{
 		"name": "Counter - Food",
                 "uniqueTo": "TCC",
-                "replaces": "Great Administrator",
+                "replaces": "Great Farmer",
 		"unitType": "Civilian",
 		"uniques": [
 			"Can start an [16]-turn golden age",
