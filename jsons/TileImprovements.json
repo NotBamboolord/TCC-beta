@@ -24,7 +24,6 @@
 			"Desert"
 		],
 		"production": 1,
-		"turnsToBuild": 14,
 		"techRequired": "Electronics",
 		"uniques": [
 			"Consumes [1] [Power]",
@@ -39,7 +38,6 @@
 		"terrainsCanBeBuiltOn": ["Swamp"],
 		"production": 1,
 		"gold": -1,
-		"turnsToBuild": 7,
 		"techRequired": "Biology",
 		"uniques": [
 			"Can also be built on tiles adjacent to fresh water",
@@ -80,7 +78,6 @@
 			"Tundra",
 			"Permafrost"
 		],
-		"turnsToBuild": 6,
 		"techRequired": "Engineering",
 		"uniques": [
 			"Consumes [1] [Power]",
