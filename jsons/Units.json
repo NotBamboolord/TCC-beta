@@ -124,4 +124,19 @@
 		"hurryCostModifier": 20,
 		"attackSound": "phasers"
 	},
+	{
+		"name": "Wire Planter",
+		"unitType": "Civilian",
+		"replaces": "Mounted Worker",
+		"uniqueTo": "The Mechanized",
+		"requiredTech": "Engineering",
+		"cost": 70,
+		"movement": 2,
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Can construct [Wire Trapped Solar collector]","Can construct [Wire Trapped Energy farm]",
+			"Can construct [Wire Trapped Trench]","Can construct [Wire Trapped Fort]",
+			"Can construct [Wire Trapped Survivor camp]","Can construct [Wire Trapped City ruins]"
+		]
+	},
   ]
