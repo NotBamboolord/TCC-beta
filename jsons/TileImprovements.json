@@ -2,16 +2,18 @@
   
 	{
 		"name": "Exposed Wire Trap",
-    "uniqueTo": "The Mechanized",
+    		"uniqueTo": "The Mechanized",
 		"terrainsCanBeBuiltOn": [
 			"Land"
 		],
 		"uniques": [
 			"Consumes [1] [Power]",
 			"Pillaging this improvement yields approximately [+10 Gold]",
-      "Can be camouflaged as a Solar Collector, an Energy Farm, consuming Power instead of granting resources",
-      "Can be camouflaged as Trenches and Forts, yielding same defence bonus but consumes Power",
-      "Can also be camouflaged as City ruins and Survivor camps to trick players"
+      			"Can be camouflaged as a Solar Collector, an Energy Farm, consuming Power instead of granting resources",
+      			"Can be camouflaged as Trenches and Forts, yielding same defence bonus but consumes Power",
+      			"Can also be camouflaged as City ruins and Survivor camps to trick players",
+			"Adjacent enemy units ending their turn take [20] damage",
+			"Unbuildable",
 		],
 	},
 	{
@@ -25,10 +27,11 @@
 		"turnsToBuild": 14,
 		"techRequired": "Electronics",
 		"uniques": [
-			"Provides [1] [Power]",
-			"Pillaging this improvement yields approximately [+10 Gold]"
+			"Consumes [1] [Power]",
+			"Pillaging this improvement yields approximately [+10 Gold]",
+			"Adjacent enemy units ending their turn take [20] damage",
+			"Unbuildable",
 		],
-		"shortcutKey": "L"
 	},
 	{
 		"name": "Energy farm",
@@ -39,10 +42,11 @@
 		"techRequired": "Biology",
 		"uniques": [
 			"Can also be built on tiles adjacent to fresh water",
-			"Provides [1] [Oil]",
-			"Pillaging this improvement yields approximately [+10 Gold]"
+			"Consumes [1] [Power]",
+			"Pillaging this improvement yields approximately [+10 Gold]",
+			"Adjacent enemy units ending their turn take [20] damage",
+			"Unbuildable",
 		],
-		"shortcutKey": "Y"
 	},
 	{
 		"name": "Trench",
@@ -56,10 +60,11 @@
 		],
 		"turnsToBuild": 4,
 		"uniques": [
+			"Consumes [1] [Power]",
 			"Gives a defensive bonus of [25]%",
-			"Can be built outside your borders"
+			"Adjacent enemy units ending their turn take [20] damage",
+			"Unbuildable",
 		],
-		"shortcutKey": "D"
 	},
 	{
 		"name": "Fort",
@@ -74,17 +79,18 @@
 		"turnsToBuild": 6,
 		"techRequired": "Engineering",
 		"uniques": [
+			"Consumes [1] [Power]",
 			"Gives a defensive bonus of [50]%",
-			"Can be built outside your borders"
+			"Adjacent enemy units ending their turn take [20] damage",
+			"Unbuildable",
 		],
-		"shortcutKey": "O"
 	},
 	{
 		"name": "Survivor camp",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
-			"Unpillagable",
-			"Provides a random bonus when entered",
+			"Consumes [1] [Power]",
+			"Adjacent enemy units ending their turn take [20] damage",
 			"Unbuildable"
 		]
 	},
@@ -92,10 +98,10 @@
 		"name": "City ruins",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
+			"Consumes [1] [Power]",
 			"Gives a defensive bonus of [10]%",
-			"Unpillagable",
+			"Adjacent enemy units ending their turn take [20] damage",
 			"Unbuildable",
-			"Will be replaced by automated workers"
 		]
 	},
   ]
