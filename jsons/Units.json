@@ -133,6 +133,7 @@
 		"cost": 70,
 		"movement": 2,
 		"hurryCostModifier": 20,
+		"replacementTextForUniques": "Can construct all kind of Wire Traps",
 		"uniques": [
 			"Can construct [Wire Trapped Solar collector]","Can construct [Wire Trapped Energy farm]",
 			"Can construct [Wire Trapped Trench]","Can construct [Wire Trapped Fort]",
