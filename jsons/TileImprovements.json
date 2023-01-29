@@ -1,0 +1,101 @@
+[
+  
+	{
+		"name": "Exposed Wire Trap",
+    "uniqueTo": "The Mechanized",
+		"terrainsCanBeBuiltOn": [
+			"Land"
+		],
+		"uniques": [
+			"Consumes [1] [Power]",
+			"Pillaging this improvement yields approximately [+10 Gold]",
+      "Can be camouflaged as a Solar Collector, an Energy Farm, consuming Power instead of granting resources",
+      "Can be camouflaged as Trenches and Forts, yielding same defence bonus but consumes Power",
+      "Can also be camouflaged as City ruins and Survivor camps to trick players"
+		],
+	},
+	{
+		"name": "Solar collector",
+		"terrainsCanBeBuiltOn": [
+			"Badlands",
+			"Wasteland",
+			"Desert"
+		],
+		"production": 1,
+		"turnsToBuild": 14,
+		"techRequired": "Electronics",
+		"uniques": [
+			"Provides [1] [Power]",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "L"
+	},
+	{
+		"name": "Energy farm",
+		"terrainsCanBeBuiltOn": ["Swamp"],
+		"production": 1,
+		"gold": -1,
+		"turnsToBuild": 7,
+		"techRequired": "Biology",
+		"uniques": [
+			"Can also be built on tiles adjacent to fresh water",
+			"Provides [1] [Oil]",
+			"Pillaging this improvement yields approximately [+10 Gold]"
+		],
+		"shortcutKey": "Y"
+	},
+	{
+		"name": "Trench",
+		"terrainsCanBeBuiltOn": [
+			"Badlands",
+			"Wasteland",
+			"Desert",
+			"Hill",
+			"Tundra",
+			"Permafrost"
+		],
+		"turnsToBuild": 4,
+		"uniques": [
+			"Gives a defensive bonus of [25]%",
+			"Can be built outside your borders"
+		],
+		"shortcutKey": "D"
+	},
+	{
+		"name": "Fort",
+		"terrainsCanBeBuiltOn": [
+			"Badlands",
+			"Wasteland",
+			"Desert",
+			"Hill",
+			"Tundra",
+			"Permafrost"
+		],
+		"turnsToBuild": 6,
+		"techRequired": "Engineering",
+		"uniques": [
+			"Gives a defensive bonus of [50]%",
+			"Can be built outside your borders"
+		],
+		"shortcutKey": "O"
+	},
+	{
+		"name": "Survivor camp",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Unpillagable",
+			"Provides a random bonus when entered",
+			"Unbuildable"
+		]
+	},
+	{
+		"name": "City ruins",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Gives a defensive bonus of [10]%",
+			"Unpillagable",
+			"Unbuildable",
+			"Will be replaced by automated workers"
+		]
+	},
+  ]
