@@ -140,4 +140,178 @@
 			"Can construct [Wire Trapped Survivor camp]","Can construct [Wire Trapped City ruins]"
 		]
 	},
+
+	///Cyberapes
+	{
+		"name": "Mandrill",
+		"unitType": "Civilian",
+		"replaces": "Great General",
+		"uniqueTo": "Cyberapes",
+		"uniques": [
+			"Can start an [8]-turn golden age",
+			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"[+25]% Strength bonus for [Gorilla] units within [3] tiles",
+			"Can construct [Citadel]",
+			"Great Person - [War]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 3
+	},
+	{
+		"name": "Bomb Thrower",
+		"unitType": "Gorilla",
+		"replaces": "Technical",
+		"uniqueTo": "Cyberapes",
+		"range": 2,
+		"movement": 2,
+		"strength": 20,
+		"rangedStrength": 40,
+		"cost": 150,
+		"requiredTech": "Replaceable Parts",
+		//"upgradesTo": "Missile Vehicle",
+		//"obsoleteTech": "Lasers",
+		"uniques": [
+			"No defensive terrain bonus",
+			"[+50]% Strength <vs [Armor] units>",
+			"[+150]% Strength <vs cities> <when attacking>",
+			"May withdraw before melee ([20]%)",
+			"Consumes [1] [Weapons]",
+			"[-1] Sight",
+			"Only available <if [Gen Restoration Project] is constructed>"
+		],
+		"hurryCostModifier": 20,
+		"promotions": ["Infantry Mortar","Infantry Weapons"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Gorilla Kid",
+		"unitType": "Gorilla",
+		"uniqueTo": "Cyberapes",
+		"movement": 2,
+		"strength": 21,
+		"interceptRange": 1,
+		"cost": 75,
+		"upgradesTo": "Battle Gorilla",
+		"hurryCostModifier": 20,
+		"requiredTech": "Civil Service",
+		"obsoleteTech": "Lasers",
+		"uniques": ["Low Tech",
+			"[+75]% XP gained from combat",
+			"[+10]% Strength <vs [Personnel] units>",
+			"[+25]% Strength <vs [Low Tech] units>",
+			"Only available <if [Gen Restoration Project] is constructed>"],
+		"promotions": [
+			"Reconnaissance I"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Battle Gorilla",
+		"unitType": "Gorilla",
+		"uniqueTo": "Cyberapes",
+		"movement": 2,
+		"strength": 42,
+		"interceptRange": 1,
+		"cost": 150,
+		"upgradesTo": "Primal Gorilla",
+		"hurryCostModifier": 20,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Energy Weapons",
+		"uniques": ["Personnel",
+			"[+30]% Strength <vs [Personnel] units>",
+			"[+15]% Strength <vs [Low Tech] units>",
+			"Only available <if [Gen Restoration Project] is constructed>"],
+		"promotions": [
+			"Reconnaissance I"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Primal Gorilla",
+		"unitType": "Gorilla",
+		"uniqueTo": "Cyberapes",
+		"movement": 2,
+		"strength": 65,
+		"interceptRange": 1,
+		"cost": 300,
+		"requiredTech": "Energy Weapons",
+		"hurryCostModifier": 20,
+		"uniques": [
+			"Personnel",
+			"Consumes [2] [Weapons]",
+			"[+30]% Strength <vs [Personnel] units>",
+			"[+150]% Strength <vs [Low Tech] units>",
+			"Only available <if [Gen Restoration Project] is constructed>",
+			"Limited to [5] per Civilization"],
+		"promotions": [
+			"Reconnaissance I",
+			"Urban Warfare I",
+			"Guerilla Warfare I"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Loudmouth",
+		"unitType": "Gorilla",
+		"uniqueTo": "Cyberapes",
+		"range": 2,
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 30,
+		"interceptRange": 1,
+		"cost": 150,
+		"requiredTech": "Radio",
+		"upgradesTo": "Noisemaker",
+		"obsoleteTech": "Social Engineering",
+		"hurryCostModifier": 20,
+		"uniques": ["Personnel", "Consumes [1] [Weapons]", "[-15]% Strength for enemy [Personnel] units in adjacent [Land] tiles",
+					 "[+15]% Strength for enemy [Personnel] units in adjacent [City center] tiles",
+					 "[+15]% Strength when stacked with [Mandrill]",
+					 "Can only attack [Land] tiles",
+					 "Ranged attacks may be performed over obstacles",
+					 "Religious Unit",
+					 "Can [Spread Religion] [1] times",
+					 "Only available <if [Gen Restoration Project] is constructed>"
+],
+		//"promotions": ["Reconnaissance I"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Noisemaker",
+		"unitType": "Gorilla",
+		"uniqueTo": "Cyberapes",
+		"range": 2,
+		"movement": 3,
+		"strength": 45,
+		"rangedStrength": 45,
+		"interceptRange": 1,
+		"cost": 300,
+		"requiredTech": "Social Engineering",
+		"hurryCostModifier": 20,
+		"uniques": ["Personnel", "Consumes [1] [Weapons]", "[-20]% Strength for enemy [Personnel] units in adjacent [Land] tiles",
+					 "[+20]% Strength for enemy [Personnel] units in adjacent [City center] tiles",
+					 "[+20]% Strength when stacked with [Mandrill]",
+					 "Ranged attacks may be performed over obstacles",
+					 "Religious Unit",
+					 "Can [Spread Religion] [2] times",
+					 "Only available <if [Gen Restoration Project] is constructed> <if [Broadcast Network] is constructed>",
+],
+		"promotions": ["Gas Mask"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "NFT Monkey",
+		"uniqueTo": "Cyberapes",
+		"replaces": "Great Merchant",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [50] Influence",
+			"Can construct [Banana Business Area]",
+			"Great Person - [Gold]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 1
+	},
   ]

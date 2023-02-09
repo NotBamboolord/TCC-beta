@@ -111,4 +111,59 @@
 			"Unbuildable",
 		]
 	},
+///Cyberapes
+	{
+		"name": "Jungle Replanting Zone"
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniqueTo": "Cyberapes",
+		"culture": 1,
+		"turnsToBuild": 10,
+		"uniques": [
+			//"Consumes [1] []",
+			"[+1 Culture, +1 Production] <with [1] to [6] neighboring [City center] tiles>",
+			"[+1 Food] <after discovering [Land Remediation]>",
+			"[+1 Production] <after discovering [Genetics]>",
+			"[+1 Food, -1 Gold] from [Fresh water] tiles",
+			"Gives a defensive bonus of [10]%",
+			"Pillaging this improvement yields approximately [+30 Culture]",
+			"Only available <if [Rainforest Restoration Project] is constructed>"
+		]
+	},
+	{
+		"name": "Banana Business Area"
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniqueTo": "Cyberapes",
+		"gold": 4,
+		"uniques": [
+			"Great Improvement",
+			"[+1 Gold] <with [1] to [6] neighboring [Jungle Replanting Zone] tiles>",
+			"[+2 Gold] <after discovering [Plastics]>",
+			"Pillaging this improvement yields approximately [+30 Gold]",
+			"Provides [1] [Bananas]",
+		]
+	},
+	{
+		"name": "Playground",
+		"happiness": 1,
+		"terrainsCanBeBuiltOn": ["Jungle"],
+		"uniqueTo": "Cyberapes",
+		"uniques": [
+		"Great Improvement",
+		"[+1 Science] for each adjacent [Academy]",
+		"[+1 Culture, +1 Happiness] for each adjacent [Settlement]",
+		"[+1 Culture, +1 Happiness, +1 Gold] for each adjacent [Banana Business Area]",
+		"[-1 Happiness, +1 Production] for each adjacent [Outpost]",
+		"[+2 Culture, +1 Happiness, -2 Food] for each adjacent [Narcotics farm]",
+		"[+1 Food, -1 Happiness] for each adjacent [Prison farm]",
+		"[+1 Culture, +1 Faith] for each adjacent [Oracle]",
+		"[+1 Happiness] for each adjacent [Manufactory]",
+		"[+1 Gold] for each adjacent [Citadel]",
+		"[+1 Faith] for each adjacent [Seminary]",
+		"[+2 Faith] for each adjacent [Crystal Refinery]",
+		"Cannot be built on [Bonus resource] tiles",
+		"Cannot be built on [Strategic resource] tiles",
+		"Cannot be built on [Luxury resource] tiles",
+		"Pillaging this improvement yields approximately [+15 Culture]"
+		]
+    },
   ]

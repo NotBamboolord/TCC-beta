@@ -1,0 +1,279 @@
+[
+{
+"name": "[Scouter Group] ability",
+"uniques": ["[+50]% Strength <vs cities> <when attacking>","[+15]% Strength <vs [Ignores terrain cost] units> <when attacking>","[+20]% XP gained from combat"]
+}
+
+	{
+		"name": "Gorilla Rage",
+		"uniques": ["[+15]% Strength <when attacking>"],
+		"unitTypes": [
+			"Gorilla"
+		],
+		"row": 11,
+        "column": 4
+	},
+	{
+		"name": "Strong Foot",
+		"uniques": ["[+10]% Strength <vs cities> <when defending>","May withdraw before melee ([20]%)"],
+		"unitTypes": [
+			"Gorilla"
+		],
+		"row": 12,
+        "column": 4
+	},
+	{
+		"name": "Bone Breaker",
+		"uniques": [
+			"[+25]% Strength <vs [Low Tech] units>",
+			"[+25]% Strength <vs [Personnel] units>",],
+		"unitTypes": [
+			"Gorilla"
+		],
+		"prerequisites": ["Gorilla Rage","Strong Foot"],
+		"row": 11,
+        "column": 5
+	},
+	{
+		"name": "Tank Breaker",
+		"uniques": ["[+50]% Strength <vs [Armor] units>"],
+		"unitTypes": [
+			"Gorilla"
+		],
+		"prerequisites": ["Gorilla Rage","Strong Foot"],
+		"row": 12,
+        "column": 5
+	},
+	{
+		"name": "Surprising Expression",
+		"uniques": ["[+100]% to Flank Attack bonuses","[+1] Sight"],
+		"unitTypes": [
+			"Gorilla"
+		],
+		"prerequisites": ["Gorilla Rage","Strong Foot"],
+		"row": 13,
+        "column": 5
+	}
+	{
+		"name": "HQ Communications",
+		"uniques": ["Unit will heal every turn, even if it performs an action","May Paradrop up to [3] tiles from inside friendly territory"],
+		"unitTypes": [
+			"Gorilla"
+		],
+		"prerequisites": ["Gorilla Rage","Strong Foot"],
+		"row": 14,
+        "column": 5
+	},
+	{
+		"name": "Molotov",
+		"uniques": [
+			"[+33]% Strength <vs cities>",
+			"[+25]% Strength <vs [Low Tech] units> <when attacking>",
+			"[+25]% Strength <vs [Personnel] units> <when attacking>",],
+		"unitTypes": [
+			"Gorilla"
+		],
+		"prerequisites": ["Bone Breaker","Tank Breaker"],
+		"row": 11,
+        "column": 6
+	},	
+	{
+		"name": "Wall Rammer",
+		"uniques": ["[+66]% Strength <vs cities>"],
+		"unitTypes": [
+			"Gorilla"
+		],
+		"prerequisites": ["Bone Breaker","Tank Breaker"],
+		"row": 12,
+        "column": 6
+	},	
+	{
+		"name": "Pest Elimination",
+		"uniques": ["Earn [20]% of the damage done to [Barbarian] units as [Gold]","[+100]% Strength <vs [Barbarian] units>"],
+		"unitTypes": [
+			"Gorilla"
+		],
+		"prerequisites": ["Bone Breaker","Tank Breaker"],
+		"row": 13,
+        "column": 6
+	},
+	{
+		"name": "Fast Whooping",
+		"uniques": ["[1] additional attacks per turn","Ignores Zone of Control"],
+		"unitTypes": [
+			"Gorilla"
+		],
+		"prerequisites": ["Molotov","Wall Rammer","Pest Elimination"],
+		"row": 12,
+        "column": 7
+	},
+	{
+		"name": "Drone Support",
+		"prerequisites": ["Drone Recon"],
+		"uniques": [
+			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
+			"[+10]% Strength for enemy [Promotion Nullifier] units in adjacent [All] tiles"
+		],
+		"unitTypes": ["Scrapper", "Shooter", "Armor", "Gorilla"],
+		"column": 0,
+		"row": 3
+	},
+	{
+		"name": "Care Package",
+		"prerequisites": ["Drone Recon"],
+		"uniques": ["[+10] HP when healing"],
+		"unitTypes": ["Scrapper", "Shooter", "Gorilla"],
+		"column": 0,
+		"row": 4
+	},
+	{
+		"name": "Advanced Sensors",
+		"prerequisites": ["Drone Recon"],
+		"uniques": ["Can see invisible [Land] units"],
+		"unitTypes": ["Scrapper", "Shooter", "Gorilla"],
+		"column": 0,
+		"row": 5
+	},
+	{
+		"name": "Infantry Mortar",
+		"prerequisites": ["Infantry Weapons"],
+		"uniques": [
+			"[+10]% Strength <when attacking>",
+			"Ranged attacks may be performed over obstacles"
+		],
+		"unitTypes": ["Scrapper", "Shooter", "Gorilla"],
+		"column": 0,
+		"row": 8
+	},
+	{
+		"name": "Antipersonnel Mines",
+		"prerequisites": ["Infantry Weapons"],
+		"uniques": ["[+10]% Strength <when defending>"],
+		"unitTypes": ["Scrapper", "Shooter", "Gorilla"],
+		"column": 0,
+		"row": 10
+	},
+	{
+		"name": "Surface-to-Air Missile",
+		"prerequisites": ["Infantry Weapons"],
+		"uniques": [
+			"[33]% chance to intercept air attacks",
+			"[+50]% Strength <vs [Air] units>",
+			"[+100]% Strength <vs [Helicopter] units>"
+		],
+		"unitTypes": ["Scrapper", "Shooter", "Gorilla"],
+		"column": 0,
+		"row": 12
+	},	
+	{
+		"name": "Urban Warfare II",
+		"prerequisites": ["Urban Warfare I"],
+		"uniques": [
+			"[+30]% Strength <when fighting in [Forest] tiles>",
+			"[+30]% Strength <when fighting in [Jungle] tiles>",
+			"[+30]% Strength <vs cities>"
+		],
+		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted", "Gorilla"],
+		"column": 2,
+        "row": 2
+	},
+	{
+		"name": "Guerilla Warfare II",
+		"prerequisites": ["Guerilla Warfare I"],
+		"uniques": [
+			"[+30]% Strength <when fighting in [Hill] tiles>",
+			"[+10]% Strength <when attacking>"
+		],
+		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted", "Gorilla"],
+		"column": 2,
+        "row": 4
+	},
+	{
+		"name": "Reconnaissance I",
+		"prerequisites": [
+			"March",
+			"Blitz",
+			"Extended Range",
+			"Medic II",
+			"Guerilla Warfare II",
+			"Urban Warfare II","Fast Whooping"
+		],
+		"uniques": ["Ignores terrain cost", "[25]% XP gained from combat"],
+		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted", "Gorilla"],
+		"column": 5,
+		"row": 1
+	},
+	{
+		"name": "Reconnaissance II",
+		"prerequisites": ["Reconnaissance I"],
+		"uniques": ["[+1] Movement", "No movement cost to pillage"],
+		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted", "Gorilla"],
+		"column": 5,
+		"row": 2
+	},
+	{
+		"name": "Reconnaissance III",
+		"prerequisites": ["Reconnaissance II"],
+		"uniques": ["[+1] Movement", "[+50]% Strength <vs [Siege] units>", "Ignores Zone of Control"],
+		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted", "Gorilla"],
+		"column": 5,
+		"row": 3
+	},
+	{
+		"name": "Amphibious",
+		"prerequisites": ["Blitz", "March", "Extended Range","Surprising Expression","Bone Breaker","Tank Breaker","HQ Communications"],
+		"uniques": [
+			"Eliminates combat penalty for attacking over a river",
+			"Eliminates combat penalty for attacking across a coast",
+			"Defense bonus when embarked"
+		],
+		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted", "Gorilla"],
+		"column": 8,
+		"row": 5
+	},
+	{
+		"name": "Seafarer",
+		"prerequisites": ["Amphibious"],
+		"uniques": [
+			"May attack when embarked"
+		],
+		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted", "Gorilla"],
+		"column": 8,
+		"row": 6
+	},
+	{
+		"name": "Medic I",
+		"prerequisites": [
+			"Smokescreen",
+			"Assault",
+			"Pursuit",
+			"Formation",
+			"Ambush",
+			"Precision",
+			"Suppression",
+			"Sentry",
+			"Guerilla Warfare II",
+			"Urban Warfare II",
+			"Reconnaissance I","Surprising Expression","Bone Breaker","Tank Breaker","HQ Communications"
+		],
+		"uniques": [
+			"[+5] HP when healing",
+			"All adjacent units heal [+5] HP when healing"
+		],
+		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted", "Gorilla"],
+		"column": 10,
+		"row": 1
+	},
+	{
+		"name": "Medic II",
+		"prerequisites": ["Medic I"],
+		"uniques": [
+			"[+5] HP when healing",
+			"All adjacent units heal [+5] HP when healing",
+			"[+5] HP when healing <in [Foreign Land] tiles>"
+		],
+		"unitTypes": ["Scrapper", "Shooter", "Scout", "Mounted", "Gorilla"],
+		"column": 10,
+		"row": 2
+	},		
+]
