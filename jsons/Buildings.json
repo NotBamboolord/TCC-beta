@@ -29,7 +29,7 @@
 		"uniqueTo": "Cyberapes",
 		"cost": 200,
 		"science": 3,
-		"requiredTech": "Currency",
+		"requiredTech": "Civil Service",
 		"uniques": [
 			"Can breed and raise stronger Apes",
 			"New [Gorilla] units start with [15] Experience [in all cities]",
@@ -44,7 +44,7 @@
 		"uniqueTo": "Cyberapes",
 		"cost": 200,
 		"science": -2,
-		"requiredTech": "Currency",
+		"requiredTech": "Civil Service",
 		"uniques": [
 			"Unlocks Jungle Replanting Zones",
 			"[+1 Gold, +1 Culture] [in all cities connected to capital] <with [1] to [1] neighboring [Jungle Replanting Zone] tiles>",
