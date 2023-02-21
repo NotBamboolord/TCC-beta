@@ -61,13 +61,4 @@
 			"Destroyed when the city is captured"
 		]
 	},
-	
-	{
-		"name": "Test Project",
-		"uniqueTo": "Cyberapes",
-		"cost": 1,
-		"uniques": ["[3] free [Primal Gorilla] units appear"
-			"Destroyed when the city is captured"
-		]
-	},
   ]
