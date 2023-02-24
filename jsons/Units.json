@@ -7,6 +7,7 @@
 		"uniques": [
 			"Can start an [16]-turn golden age",
 			"Can construct [Settlement]",
+                        "Can construct [Factory farm]",
 			"Great Person - [Food]",
 			"Unbuildable",
 			"Uncapturable"
@@ -114,7 +115,6 @@
 			"Damage is ignored when determining unit Strength",
 			"[+200]% maintenance costs",
 			"Can only heal by pillaging",
-			"[-33]% Strength <vs [Armor] units>",
 			"Great Unit - War",
 			"Cannot be purchased",
 			"Unbuildable",
@@ -123,6 +123,19 @@
 		"promotions": [ "Promotion Nullifier"],
 		"hurryCostModifier": 20,
 		"attackSound": "phasers"
+	},
+        {
+		"name": "Counter - Arts",
+                "replaces": "Great Administrator",
+		"unitType": "Civilian",
+		"uniques": [
+			"Can start an [16]-turn golden age",
+			//"Can construct [Landmark]",
+			"Great Person - [Arts]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
 	},
 	{
 		"name": "Wire Planter",
