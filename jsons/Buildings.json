@@ -6,11 +6,12 @@
 		"uniqueTo": "TCC",
 		"culture": 1,
 		"cost": 1,
+		"specialistSlots": { "Politician": 1 },
 		"uniques": [
-			"[3] free [Archer] units appear",
+			"[3] free [Secret Bowman] units appear",
 			"Can only be built [in capital]",
 			"Gain a free [Monument] [in this city]",
-			"[+30 Gold, +50 Culture] whenever a Great Person is expended",
+			"[+20 Gold, +20 Culture] whenever a Great Person is expended",
 			"[+3 Culture, +2 Science, +1 Gold] for every known Natural Wonder"
 		],
 		"quote": "quote",
