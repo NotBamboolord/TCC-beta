@@ -130,6 +130,28 @@
 		"percentStatBonus": { "science": 25 },
 		"requiredTech": "Decryption"
 	},
+        {
+		"name": "Productivity Complex",
+                "uniqueTo": "TCC",
+                "replaces": "Factory",
+                "gold": 2,
+		// "food": -1,
+		"percentStatBonus": { "production": 20 },
+		"specialistSlots": { "Entrepreneur": 2 },
+		"maintenance": 0,
+		"hurryCostModifier": 0,
+		"uniques": [
+                        "2 Entrepreneur Complex",
+                        "
+			"Only available <in cities with a [Library]>",
+			"Enables construction of [advanced] units",
+			"[+3 Production] [in this city] <with [Power]>",
+			"[+1 Production] [in this city] <with [Machine Parts]>",
+			"[+1 Production] from [Machine Parts] tiles [in this city]",
+			"Consumes [1] [Power]"
+		],
+		"requiredTech": "Manufacturing"
+	},
 
 ///Cyberapes
 	
@@ -171,4 +193,18 @@
 			"Destroyed when the city is captured"
 		]
 	},
+// The Archive
+{
+		"name": "Archive of the Arts",
+		"uniqueTo": "The Archive",
+		"cost": 1,
+		"culture": 5,
+		"science": 1,
+		"happiness": 1,
+		"specialistSlots": { "Archivar": 4 },
+		"greatPersonPoints": { "Great Administrator": 2 },
+		"uniques": [
+			"[+50]% Golden Age length",
+			"Provides [1] [Power]",
+			"Never destroyed when the city is captured"		]	},
   ]
