@@ -30,6 +30,7 @@
 	          	"Starts with [Writing]",
 			"Starts with [Secrets of the Past]",
 			"Starts with [Sect Knowledge]",
+                        "[-1 Science] [in all cities] <before discovering [Education]>",
 			"[Great General] is earned [-50]% faster",
 		],
 		"cities": [
