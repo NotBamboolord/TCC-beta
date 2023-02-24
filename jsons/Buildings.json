@@ -20,6 +20,116 @@
 			},
 		]
 	},
+        {
+		"name": "Secret Society",
+                "uniqueTo": "TCC",
+                "replaces": "Town Hall",
+		"specialistSlots": { "Politician": 2 },
+                "science": 1,
+		"maintenance": 1,
+		"uniques": [
+                        "2 Politician Slots",
+			"[-25]% Culture cost of natural border growth [in this city]",
+			"[+1 Culture, +1 Happiness] [in this city] <with [Power]>"
+		],
+		"hurryCostModifier": 25,
+		"requiredTech": "Civil Service"
+	},
+        {
+		"name": "Public Examinum",
+		"science": 1,
+		"specialistSlots": { "Archivar": 1},
+		"cost": 40,
+		"uniques": ["[+1 Culture, +1 Science, +1 Faith] from [Artifacts] tiles [in this city]",	"1 Archivar Slot"]
+		"hurryCostModifier": 25,
+		"requiredTech": "Secrets of the Past"
+	},
+        {
+		"name": "Private Radio Station",
+                "uniqueTo": "TCC",
+                "replaces": "Broadcast Tower",
+		"culture": 1,
+		"specialistSlots": { "Entrepreneur": 1 },
+		"percentStatBonus": { "culture": 25 },
+		"uniques": ["1 Entrepreneur slot", "[+10]% [Gold] [in this city]"],
+		"maintenance": 2,
+		"requiredTech": "Radio"
+	},
+        {
+		"name": "Local Business",
+                "uniqueTo": "TCC",
+                "replaces": "Market",
+		"specialistSlots": { "Entrepreneur": 1 },
+		"hurryCostModifier": 25,
+		"requiredTech": "Trade",
+		"uniques": [
+                        "1 Entrepreneur slot instead of Merchant slots",
+			"[+1 Gold] from [Luxury resource] tiles [in this city]"
+		]
+	},
+        {
+		"name": "Scriptum",
+                "uniqueTo": "TCC",
+                "replaces": "Library",
+		"specialistSlots": { "Archivar": 1 },
+		"hurryCostModifier": 25,
+		"uniques": [
+                        "1 Archivar slot",
+			"[+2 Science] [in this city] <with [Data]>",
+			"[+1 Science] per [2] population [in this city]",
+			"[+1 Science, +1 Culture] from [Books] tiles [in this city]",
+			"Enables construction of [Power] buildings"
+		],
+		"requiredTech": "Writing"
+	},
+{
+		"name": "Literature School",
+		"maintenance": 1,
+                "faith": 1,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"[+1 Science, +1 Culture, +1 Faith] per [3] population [in this city]",
+                        "[+1 Happiness] per [5] population [in this city]",
+			"Only available <in cities with a [Library]>",
+			"[+1 Culture] [in this city] <with [Power]>",
+                        "Consumes [1] [Books]"
+		],
+		"requiredTech": "Civil Service"
+	},
+{
+		"name": "History Sustaining Center",
+                "uniqueTo": "TCC",
+                "replaces": "Data",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"percentStatBonus": { "science": 50 },
+		"specialistSlots": { "Archivar": 2 },
+		"requiredTech": "Networking",
+		"uniques": [
+                        "2 Archivar slots",
+			"[+3 Science, +3 Culture] from [Data] tiles [in this city]",
+			"[+2 Science, +2 Culture] from [Encrypted Data] tiles [in this city]",
+                        "[+2 Culture, +2 Faith] [in this city] <with [Data]>",
+			"Consumes [1] [Data]"
+		]
+	},
+        {
+		"name": "Knowledge Processor",
+                "uniqueTo": "TCC",
+                "replaces": "Decryption",
+		"culture": 3,
+		"greatPersonPoints": { "Great Scientist": 2 },
+		"specialistSlots": { "Archivar": 1 },
+		"uniques": [
+                        "1 Archivar Slot",
+			"Consumes [1] [Encrypted Data]",
+			"[+2 Science] [in this city] <with [Power]>",
+			"Only available <in cities with a [Data Center]>",
+                        "Provides [1] [Data]",
+		],
+		"percentStatBonus": { "science": 25 },
+		"requiredTech": "Decryption"
+	},
 
 ///Cyberapes
 	
