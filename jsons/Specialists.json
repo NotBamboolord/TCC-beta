@@ -53,6 +53,6 @@
                 "food": 1,
                 "gold": 1,
 		"greatPersonPoints": { "Great Engineer": 2, "Great Farmer": 2, "Great Merchant": 2 },
-		"color": [139, 69, 19]
+		"color": [197, 142, 10]
 	},
 ]
