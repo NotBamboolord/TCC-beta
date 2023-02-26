@@ -154,6 +154,8 @@
 	},
 	{
 		"name": "Underground Dome",
+                "uniqueTo": "TCC",
+                "replaces": "Arcology Dome",
 		"food": 1,
 		"culture": 1,
 		"happiness": 1,
