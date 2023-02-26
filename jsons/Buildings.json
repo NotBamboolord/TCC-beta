@@ -38,6 +38,8 @@
 	},
         {
 		"name": "Public Examinum",
+                "uniqueTo": "TCC",
+                "replaces": "Museum",
 		"science": 1,
 		"specialistSlots": { "Archivar": 1},
 		"cost": 40,
