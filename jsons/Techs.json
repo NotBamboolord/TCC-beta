@@ -10,7 +10,7 @@
 				"name": "Sect Knowledge",
 				"row": 7,
 				"quote": "",
-				"uniques": ["Only available <before discovering [The Wheel]>","[+1 Faith, +1 Science] from every specialist [in all cities]"]
+				"uniques": ["Only available <before discovering [The Wheel]>", "[+1 Faith] [in capital]"]
 			}
 		]
 	},
