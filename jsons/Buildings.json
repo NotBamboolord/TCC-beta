@@ -153,6 +153,28 @@
 		],
 		"requiredTech": "Manufacturing"
 	},
+	{
+		"name": "Underground Dome",
+		"food": 1,
+		"culture": 1,
+		"happiness": 1,
+		"gold": 1,
+		"percentStatBonus": { "culture": 33, "production": 10 },
+		"specialistSlots": {"Politician": 1, "Entrepreneur": 1, "Farmer": 1, "Merchant": 1, "Scientist": 1},
+		"cityStrength": 7,
+		"cityHealth": 100,
+		"requiredTech": "Future Materials",
+		"uniques": [
+			"[20]% Great Person generation [in this city]",
+			"[-10]% Unhappiness from [Population] [in this city]",
+			"Only available <if [Arcology Project] is constructed>",
+			"Requires at least [2] population",
+			"Destroyed when the city is captured",
+			"Consumes [1] [Power]",
+			"Consumes [1] [Aluminum]",
+			"Consumes [1] [Coal]"
+		]
+	},
 
 ///Cyberapes
 	
