@@ -76,6 +76,17 @@
 			"[-15]% [Science] [in capital] <before discovering [Computers]>",
 			"[-10]% [Production] [in capital] <before discovering [Computers]>",
 			"Nullifies Growth [in all cities]",
+			"[-1 Food] from every [Wasteland] <with [1] to [6] neighboring [Lakes] tiles> <after discovering [Ecology]>",
+			"[-1 Food] from every [Desert] <with [1] to [6] neighboring [Lakes] tiles> <after discovering [Ecology]>",
+			"[-1 Food] from every [Badlands] <with [1] to [6] neighboring [Lakes] tiles> <after discovering [Ecology]>",
+			"[-1 Food] from every [Lakes]",
+			//"[-1 Food] from every [Lakes] <in cities with a [Hydroponic Farming]>",
+"[-1 Food] from every [Coast] <in cities with a [Fish Farm]>",
+"[-1 Food] from every [Coast] <in cities with a [Ocean Seeder]>",
+"[-1 Food] from every [Ocean] <in cities with a [Ocean Seeder]>",
+"[-1 Food] from every [Forest] <in cities with a [Transport Network]>",
+"[-1 Food] from every [Jungle] <in cities with a [Transport Network]>",
+"[-2 Food] from every [Isolated Island] <if [Annex Isolationists] is constructed>",Annex Isolationists
 		],
 		"uniqueText": "Cannot grow cities naturally with Food\nCan artificially create people with unique buildings\nPersonnel units gain the Gas Mask and Automated promotions\nCannot build Low Tech units\nStarts with Construction\nStarts with Biology\nStarts with Electronics\nStarts with Mechanization adopted\n+1 population in all cities upon adopting Deregulation\n+1 population in all cities upon adopting Digitization\n+1 population in all cities connected to capital upon entering a Golden Age after adopting Mechanization Complete",
 		"cities": [
