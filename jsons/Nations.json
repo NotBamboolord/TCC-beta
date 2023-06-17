@@ -141,6 +141,22 @@
 			"[-1 Food] from every [Tubers] <in [Grassland] tiles>",
 			"[+1 Food] from every [Uranium] <in [Mine] tiles>",
 			"[+1 Food] from every [Uranium] <in [Borehole] tiles>",
+			"[-1 Food] from every [Farm]",
+			"[-1 Food] from every [Farm] <in [Fresh water] tiles>",
+			"[-1 Food] from every [Farm] <after discovering [Land Remediation]>",
+			"[-1 Food] from every [Tree plantation] <in [Fresh water] tiles>",
+			"[-1 Food] from every [Tree plantation] <after discovering [Land Remediation]>",
+			"[-1 Food] from every [Tree plantation] <after discovering [Geo Engineering]>",
+			"[-1 Food] from every [Tree plantation] <in cities with a [Protected Area]>",
+			"[-1 Food] from every [Tree plantation] <in cities with a [Sacred Tree]>",
+			"[-1 Food] from every [Pasture] <after discovering [Genetics]>",
+			"[-2 Food] from every [Nature preserve]",
+			"[-1 Food] from every [Nature preserve] <with [Exotic Seeds]>",
+			"[-3 Food] from every [Artificial oasis]",
+			"[-1 Food] from every [Artificial glacier]",/*
+			"[-1 Food] from every [Farm]",
+			"[-1 Food] from every [Farm] <in [Fresh water] tiles>",
+			"[-1 Food] from every [Farm] <after discovering [Land Remediation]>",*/
 		],
 		"uniqueText": "Cannot grow cities naturally with Food\nCan artificially create people with unique buildings\nPersonnel units gain the Gas Mask and Automated promotions\nCannot build Low Tech units\nStarts with Construction\nStarts with Biology\nStarts with Electronics\nStarts with Mechanization adopted\n+1 population in all cities upon adopting Deregulation\n+1 population in all cities upon adopting Digitization\n+1 population in all cities connected to capital upon entering a Golden Age after adopting Mechanization Complete",
 		"cities": [
