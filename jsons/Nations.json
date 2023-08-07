@@ -65,6 +65,7 @@
 			"[Personnel] units gain the [Gas Mask] promotion",
 			"[Personnel] units gain the [Automated] promotion",
 			"Cannot build [Low Tech] units",
+			"Cannot build [All] units <in cities without a [Life Creation Lab]>",
 			"Starts with [Construction]",
 			"Starts with [Biology]",
 			"Starts with [Electronics]",
