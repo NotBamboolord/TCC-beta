@@ -175,6 +175,9 @@
 			"[-2 Food] from every [Borough]",
 "[-2 Food] from every [Borough] <in cities with a [Transport Network]>",
 			"[-2 Food] from every [Modular island]",
+			"[-1 Food] from every [Camp] <after discovering [Ecology]>",
+			"[-1 Food] from every [Camp] <after adopting [Lord of the Hunt]>",
+			"[-1 Food] from every [Fishing Boats] <after discovering [Oceanography Tech]>",
 		],
 		"uniqueText": "Cannot grow cities naturally with Food\nCan artificially create people with unique buildings\nPersonnel units gain the Gas Mask and Automated promotions\nCannot build Low Tech units\nStarts with Construction\nStarts with Biology\nStarts with Electronics\nStarts with Mechanization adopted\n+1 population in all cities upon adopting Deregulation\n+1 population in all cities upon adopting Digitization\n+1 population in all cities connected to capital upon entering a Golden Age after adopting Mechanization Complete",
 		"cities": [
