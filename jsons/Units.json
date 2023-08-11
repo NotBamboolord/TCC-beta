@@ -29,7 +29,7 @@
 		"replaces": "Great Farmer",
 		"unitType": "Civilian",
 		"uniques": [
-			"Can start an [16]-turn golden age",
+			"Empire enters a [16]-turn Golden Age <by consuming this unit>",
 			"Can instantly construct a [Settlement] improvement <by consuming this unit>",
 			"Can instantly construct a [Factory farm] improvement <by consuming this unit>",
 			"Great Person - [Food]",
@@ -68,9 +68,9 @@
 		"replaces": "Great Scientist",
 		"unitType": "Civilian",
 		"uniques": [
-			"Can start an [12]-turn golden age",
-			"Can construct [Oracle]",
-			"Can construct [Academy] <starting from the [Neofeudal era]>",
+			"Empire enters a [12]-turn Golden Age <by consuming this unit>",
+			"Can instantly construct a [Oracle] improvement <by consuming this unit>",
+			"Can instantly construct a [Academy] improvement <by consuming this unit> <starting from the [Neofeudal era]>",
 			"Great Person - [History]",
 			"Unbuildable",
 			"Uncapturable"
@@ -84,7 +84,7 @@
 		"unitType": "Civilian",
 		"uniques": [
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [90] Influence",
-			"Empire enters a [12]-turn golden age <by consuming this unit>",
+			"Empire enters a [12]-turn Golden Age <by consuming this unit>",
 			"Great Person - [Economy]",
 			"Unbuildable",
 			"Uncapturable"
@@ -154,7 +154,7 @@
 		"uniqueTo": "TCC",
 		"unitType": "Civilian",
 		"uniques": [
-			"Empire enters a [16]-turn golden age <by consuming this unit>",
+			"Empire enters a [16]-turn Golden Age <by consuming this unit>",
 			"Great Person - [Arts]",
 			"Unbuildable",
 			"Uncapturable"
@@ -170,7 +170,7 @@
 		"cost": 70,
 		"movement": 2,
 		"hurryCostModifier": 20,
-		"replacementTextForUniques": "Can construct all kind of Wire Traps",
+		"replacementTextForUniques": "Can construct all kinds of Wire Traps",
 		"uniques": [
 			"Can instantly construct a [Wire Trapped Solar collector] improvement <by consuming this unit>",
 			"Can instantly construct a [Wire Trapped Energy farm] improvement <by consuming this unit>",
@@ -188,7 +188,7 @@
 		"replaces": "Great General",
 		"uniqueTo": "Cyberapes",
 		"uniques": [
-			"Empire enters a [8]-turn golden age <by consuming this unit>",
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"[+25]% Strength bonus for [Gorilla] units within [3] tiles",
 			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
