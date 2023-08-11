@@ -1,83 +1,72 @@
 [
 ///TCC
-  {
+	{
 		"name": "Sectleading Chamber",
 		"isWonder": true,
 		"uniqueTo": "TCC",
 		"culture": 1,
 		"cost": 1,
-		"specialistSlots": { "Politician": 1 },
+		"specialistSlots": {"Politician": 1},
 		"uniques": [
 			"[3] free [Secret Bowman] units appear",
 			"Can only be built [in capital]",
 			"Gain a free [Monument] [in this city]",
 			"[+20 Gold, +20 Culture] whenever a Great Person is expended",
 			"[+3 Culture, +2 Science, +1 Gold] for every known Natural Wonder"
-		],
-		"quote": "quote",
-		"civilopediaText": [
-			{
-				"text": "text (quote)",
-			},
 		]
+		// quote + civilopedia text TBD
 	},
-        {
+    {
 		"name": "Secret Society",
-                "uniqueTo": "TCC",
-                "replaces": "Town Hall",
-		"specialistSlots": { "Politician": 2 },
-                "science": 1,
+		"uniqueTo": "TCC",
+		"replaces": "Town Hall",
+		"specialistSlots": {"Politician": 2},
+		"science": 1,
 		"maintenance": 1,
 		"uniques": [
-                        "2 Politician Slots",
 			"[-25]% Culture cost of natural border growth [in this city]",
 			"[+1 Culture, +1 Happiness] [in this city] <with [Power]>"
 		],
 		"hurryCostModifier": 25,
 		"requiredTech": "Civil Service"
 	},
-        {
+	{
 		"name": "Public Examinum",
-                "uniqueTo": "TCC",
-                "replaces": "Museum",
+		"uniqueTo": "TCC",
+		"replaces": "Museum",
 		"science": 1,
-		"specialistSlots": { "Archivar": 1},
+		"specialistSlots": {"Archivar": 1},
 		"cost": 40,
-		"uniques": ["[+1 Culture, +1 Science, +1 Faith] from [Artifacts] tiles [in this city]",	"1 Archivar Slot"]
+		"uniques": ["[+1 Culture, +1 Science, +1 Faith] from [Artifacts] tiles [in this city]"],
 		"hurryCostModifier": 25,
 		"requiredTech": "Secrets of the Past"
 	},
-        {
+	{
 		"name": "Private Radio Station",
-                "uniqueTo": "TCC",
-                "replaces": "Broadcast Tower",
+		"uniqueTo": "TCC",
+		"replaces": "Broadcast Tower",
 		"culture": 1,
-		"specialistSlots": { "Entrepreneur": 1 },
-		"percentStatBonus": { "culture": 25 },
-		"uniques": ["1 Entrepreneur slot", "[+10]% [Gold] [in this city]"],
+		"specialistSlots": {"Entrepreneur": 1},
+		"percentStatBonus": {"culture": 25, "gold": 10},
 		"maintenance": 2,
 		"requiredTech": "Radio"
 	},
-        {
+	{
 		"name": "Local Business",
-                "uniqueTo": "TCC",
-                "replaces": "Market",
-		"specialistSlots": { "Entrepreneur": 1 },
+		"uniqueTo": "TCC",
+		"replaces": "Market",
+		"specialistSlots": {"Entrepreneur": 1},
 		"hurryCostModifier": 25,
 		"requiredTech": "Trade",
-		"uniques": [
-                        "1 Entrepreneur slot instead of Merchant slots",
-			"[+1 Gold] from [Luxury resource] tiles [in this city]"
-		]
+		"uniques": ["[+1 Gold] from [Luxury resource] tiles [in this city]"]
 	},
-        {
+	{
 		"name": "Scriptum",
-                "uniqueTo": "TCC",
-                "replaces": "Library",
-		"specialistSlots": { "Archivar": 1 },
+		"uniqueTo": "TCC",
+		"replaces": "Library",
+		"specialistSlots": {"Archivar": 1},
 		"hurryCostModifier": 25,
 		"uniques": [
-                        "1 Archivar slot",
 			"[+2 Science] [in this city] <with [Data]>",
 			"[+1 Science] per [2] population [in this city]",
 			"[+1 Science, +1 Culture] from [Books] tiles [in this city]",
@@ -85,66 +74,62 @@
 		],
 		"requiredTech": "Writing"
 	},
-{
+	{
 		"name": "Literature School",
 		"maintenance": 1,
-                "faith": 1,
+		"faith": 1,
 		"hurryCostModifier": 0,
 		"uniques": [
 			"[+1 Science, +1 Culture, +1 Faith] per [3] population [in this city]",
-                        "[+1 Happiness] per [5] population [in this city]",
+			"[+1 Happiness] per [5] population [in this city]",
 			"Only available <in cities with a [Library]>",
 			"[+1 Culture] [in this city] <with [Power]>",
-                        "Consumes [1] [Books]"
+			"Consumes [1] [Books]"
 		],
 		"requiredTech": "Civil Service"
 	},
-{
+	{
 		"name": "History Sustaining Center",
-                "uniqueTo": "TCC",
-                "replaces": "Data Center",
+		"uniqueTo": "TCC",
+		"replaces": "Data Center",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
-		"percentStatBonus": { "science": 50 },
-		"specialistSlots": { "Archivar": 2 },
+		"percentStatBonus": {"science": 50},
+		"specialistSlots": {"Archivar": 2},
 		"requiredTech": "Networking",
 		"uniques": [
-                        "2 Archivar slots",
 			"[+3 Science, +3 Culture] from [Data] tiles [in this city]",
 			"[+2 Science, +2 Culture] from [Encrypted Data] tiles [in this city]",
-                        "[+2 Culture, +2 Faith] [in this city] <with [Data]>",
+			"[+2 Culture, +2 Faith] [in this city] <with [Data]>",
 			"Consumes [1] [Data]"
 		]
 	},
-        {
+	{
 		"name": "Knowledge Processor",
-                "uniqueTo": "TCC",
-                "replaces": "Decryption Center",
+		"uniqueTo": "TCC",
+		"replaces": "Decryption Center",
 		"culture": 3,
-		"greatPersonPoints": { "Great Scientist": 2 },
-		"specialistSlots": { "Archivar": 1 },
+		"greatPersonPoints": {"Great Scientist": 2},
+		"specialistSlots": {"Archivar": 1},
 		"uniques": [
-                        "1 Archivar Slot",
 			"Consumes [1] [Encrypted Data]",
 			"[+2 Science] [in this city] <with [Power]>",
 			"Only available <in cities with a [Data Center]>",
-                        "Provides [1] [Data]",
+			"Provides [1] [Data]"
 		],
-		"percentStatBonus": { "science": 25 },
+		"percentStatBonus": {"science": 25},
 		"requiredTech": "Decryption"
 	},
-        {
+	{
 		"name": "Productivity Complex",
-                "uniqueTo": "TCC",
-                "replaces": "Factory",
-                "gold": 2,
-		// "food": -1,
-		"percentStatBonus": { "production": 20 },
-		"specialistSlots": { "Entrepreneur": 2 },
+		"uniqueTo": "TCC",
+		"replaces": "Factory",
+		"gold": 2,
+		"percentStatBonus": {"production": 20},
+		"specialistSlots": {"Entrepreneur": 2},
 		"maintenance": 0,
 		"hurryCostModifier": 0,
 		"uniques": [
-                        "2 Entrepreneur Complex",
 			"Only available <in cities with a [Library]>",
 			"Enables construction of [advanced] units",
 			"[+3 Production] [in this city] <with [Power]>",
@@ -156,13 +141,13 @@
 	},
 	{
 		"name": "Underground Dome",
-                "uniqueTo": "TCC",
-                "replaces": "Arcology Dome",
+		"uniqueTo": "TCC",
+		"replaces": "Arcology Dome",
 		"food": 1,
 		"culture": 1,
 		"happiness": 1,
 		"gold": 1,
-		"percentStatBonus": { "culture": 33, "production": 10 },
+		"percentStatBonus": {"culture": 33, "production": 10},
 		"specialistSlots": {"Politician": 1, "Entrepreneur": 1, "Farmer": 1, "Merchant": 1, "Scientist": 1},
 		"cityStrength": 7,
 		"cityHealth": 100,
@@ -213,24 +198,27 @@
 			"[+2 Gold, +6 Culture, +2 Food] [in all cities connected to capital] <with [6] to [6] neighboring [Jungle Replanting Zone] tiles>",
 			"[+2 Faith] from [Jungle Replanting Zone] tiles [in holy cities]",
 			"[NFT Monkey] is earned [+100]% faster",
-			"[+1 Food, +1 Production] from every [Merchant]"
+			"[+1 Food, +1 Production] from every [Merchant]",
 			"Can only be built [in capital]",
 			"Only available <in cities without a [Gen Restoration Project]>",
 			"Destroyed when the city is captured"
 		]
 	},
+
 // The Archive
-{
+	{
 		"name": "Archive of the Arts",
 		"uniqueTo": "The Archive",
 		"cost": 1,
 		"culture": 5,
 		"science": 1,
 		"happiness": 1,
-		"specialistSlots": { "Archivar": 4 },
-		"greatPersonPoints": { "Great Administrator": 2 },
+		"specialistSlots": {"Archivar": 4},
+		"greatPersonPoints": {"Great Administrator": 2},
 		"uniques": [
 			"[+50]% Golden Age length",
 			"Provides [1] [Power]",
-			"Never destroyed when the city is captured"		]	},
-  ]
+			"Never destroyed when the city is captured"
+		]
+	}
+]

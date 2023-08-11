@@ -1,5 +1,5 @@
 [
-        {
+	{
 		"name": "Secret Bowman",
 		"unitType": "Shooter",
 		"uniqueTo": "TCC",
@@ -17,21 +17,21 @@
 			"Low Tech",
 			"[+33]% Strength <when attacking>",
 			"Invisible to non-adjacent units",
-                        "Can see invisible [Land] units",
-                        "May enter foreign tiles without open borders"
+			"Can see invisible [Land] units",
+			"May enter foreign tiles without open borders"
 		],
 		"promotions": ["Urban Warfare I", "Reconnaissance I"],
 		"attackSound": "arrow"
 	},
 	{
 		"name": "Counter - Food",
-                "uniqueTo": "TCC",
-                "replaces": "Great Farmer",
+		"uniqueTo": "TCC",
+		"replaces": "Great Farmer",
 		"unitType": "Civilian",
 		"uniques": [
 			"Can start an [16]-turn golden age",
-			"Can construct [Settlement]",
-                        "Can construct [Factory farm]",
+			"Can instantly construct a [Settlement] improvement <by consuming this unit>",
+			"Can instantly construct a [Factory farm] improvement <by consuming this unit>",
 			"Great Person - [Food]",
 			"Unbuildable",
 			"Uncapturable"
@@ -40,8 +40,8 @@
 	},
 	{
 		"name": "Sectleader",
-                "uniqueTo": "TCC",
-                "replaces": "Great Sage",
+		"uniqueTo": "TCC",
+		"replaces": "Great Sage",
 		"unitType": "Civilian",
 		"uniques": [
 			"Can [Spread Religion] [4] times",
@@ -64,8 +64,8 @@
 	},
 	{
 		"name": "Counter - History",
-                "uniqueTo": "TCC",
-                "replaces": "Great Scientist",
+		"uniqueTo": "TCC",
+		"replaces": "Great Scientist",
 		"unitType": "Civilian",
 		"uniques": [
 			"Can start an [12]-turn golden age",
@@ -79,12 +79,12 @@
 	},
 	{
 		"name": "Counter - Economy",
-                "uniqueTo": "TCC",
-                "replaces": "Great Merchant",
+		"uniqueTo": "TCC",
+		"replaces": "Great Merchant",
 		"unitType": "Civilian",
 		"uniques": [
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [90] Influence",
-			"Can start an [12]-turn golden age",
+			"Empire enters a [12]-turn golden age <by consuming this unit>",
 			"Great Person - [Economy]",
 			"Unbuildable",
 			"Uncapturable"
@@ -93,12 +93,12 @@
 	},
 	{
 		"name": "Counter - Industry",
-                "uniqueTo": "TCC",
-                "replaces": "Great Engineer",
+		"uniqueTo": "TCC",
+		"replaces": "Great Engineer",
 		"unitType": "Civilian",
 		"uniques": [
-			"Can construct [Citadel]",
-			"Can construct [Manufactory]",
+			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Can instantly construct a [Manufactory] improvement <by consuming this unit>",
 			"Great Person - [Industry]",
 			"Unbuildable",
 			"Uncapturable"
@@ -107,8 +107,8 @@
 	},
 	{
 		"name": "Death Counter",
-                "uniqueTo": "TCC",
-                "replaces": "Great General",
+		"uniqueTo": "TCC",
+		"replaces": "Great General",
 		"unitType": "Civilian",
 		"uniques": [
 			"[+25]% Strength bonus for [Military] units within [1] tiles",
@@ -121,8 +121,8 @@
 	},
 	{
 		"name": "Death Laser",
-                "uniqueTo": "TCC",
-                "replaces": "Machine Gun",
+		"uniqueTo": "TCC",
+		"replaces": "Machine Gun",
 		"unitType": "Siege",
 		"range": 1,
 		"movement": 2,
@@ -144,18 +144,17 @@
 			"Unbuildable",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": [ "Promotion Nullifier"],
+		"promotions": ["Promotion Nullifier"],
 		"hurryCostModifier": 20,
 		"attackSound": "phasers"
 	},
-        {
+	{
 		"name": "Counter - Arts",
-                "replaces": "Great Administrator",
+		"replaces": "Great Administrator",
 		"uniqueTo": "TCC",
 		"unitType": "Civilian",
 		"uniques": [
-			"Can start an [16]-turn golden age",
-			//"Can construct [Landmark]",
+			"Empire enters a [16]-turn golden age <by consuming this unit>",
 			"Great Person - [Arts]",
 			"Unbuildable",
 			"Uncapturable"
@@ -173,9 +172,12 @@
 		"hurryCostModifier": 20,
 		"replacementTextForUniques": "Can construct all kind of Wire Traps",
 		"uniques": [
-			"Can construct [Wire Trapped Solar collector]","Can construct [Wire Trapped Energy farm]",
-			"Can construct [Wire Trapped Trench]","Can construct [Wire Trapped Fort]",
-			"Can construct [Wire Trapped Survivor camp]","Can construct [Wire Trapped City ruins]"
+			"Can instantly construct a [Wire Trapped Solar collector] improvement <by consuming this unit>",
+			"Can instantly construct a [Wire Trapped Energy farm] improvement <by consuming this unit>",
+			"Can instantly construct a [Wire Trapped Trench] improvement <by consuming this unit>",
+			"Can instantly construct a [Wire Trapped Fort] improvement <by consuming this unit>",
+			"Can instantly construct a [Wire Trapped Survivor camp] improvement <by consuming this unit>",
+			"Can instantly construct a [Wire Trapped City ruins] improvement <by consuming this unit>"
 		]
 	},
 
@@ -186,10 +188,10 @@
 		"replaces": "Great General",
 		"uniqueTo": "Cyberapes",
 		"uniques": [
-			"Can start an [8]-turn golden age",
+			"Empire enters a [8]-turn golden age <by consuming this unit>",
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"[+25]% Strength bonus for [Gorilla] units within [3] tiles",
-			"Can construct [Citadel]",
+			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Great Person - [War]",
 			"Unbuildable",
 			"Uncapturable"
@@ -219,7 +221,7 @@
 			"Only available <if [Gen Restoration Project] is constructed>"
 		],
 		"hurryCostModifier": 20,
-		"promotions": ["Infantry Mortar","Infantry Weapons"],
+		"promotions": ["Infantry Mortar", "Infantry Weapons"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -239,9 +241,7 @@
 			"[+10]% Strength <vs [Personnel] units>",
 			"[+25]% Strength <vs [Low Tech] units>",
 			"Only available <if [Gen Restoration Project] is constructed>"],
-		"promotions": [
-			"Reconnaissance I"
-		],
+		"promotions": ["Reconnaissance I"],
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -260,9 +260,7 @@
 			"[+30]% Strength <vs [Personnel] units>",
 			"[+15]% Strength <vs [Low Tech] units>",
 			"Only available <if [Gen Restoration Project] is constructed>"],
-		"promotions": [
-			"Reconnaissance I"
-		],
+		"promotions": ["Reconnaissance I"],
 		"attackSound": "shot"
 	},
 	{
@@ -275,18 +273,13 @@
 		"cost": 300,
 		"requiredTech": "Energy Weapons",
 		"hurryCostModifier": 20,
-		"uniques": [
-			"Personnel",
+		"uniques": ["Personnel",
 			"Consumes [2] [Weapons]",
 			"[+30]% Strength <vs [Personnel] units>",
 			"[+150]% Strength <vs [Low Tech] units>",
 			"Only available <if [Gen Restoration Project] is constructed>",
 			"Limited to [5] per Civilization"],
-		"promotions": [
-			"Reconnaissance I",
-			"Urban Warfare I",
-			"Guerilla Warfare I"
-		],
+		"promotions": ["Reconnaissance I", "Urban Warfare I", "Guerilla Warfare I"],
 		"attackSound": "shot"
 	},
 	{
@@ -298,21 +291,23 @@
 		"strength": 30,
 		"rangedStrength": 30,
 		"interceptRange": 1,
+		"religiousStrength": 1000,
 		"cost": 150,
 		"requiredTech": "Radio",
 		"upgradesTo": "Noisemaker",
 		"obsoleteTech": "Social Engineering",
 		"hurryCostModifier": 20,
-		"uniques": ["Personnel", "Consumes [1] [Weapons]", "[-15]% Strength for enemy [Personnel] units in adjacent [Land] tiles",
-					 "[+15]% Strength for enemy [Personnel] units in adjacent [City center] tiles",
-					 "[+15]% Strength when stacked with [Mandrill]",
-					 "Can only attack [Land] tiles",
-					 "Ranged attacks may be performed over obstacles",
-					 "Religious Unit",
-					 "Can [Spread Religion] [1] times",
-					 "Only available <if [Gen Restoration Project] is constructed>"
-],
-		//"promotions": ["Reconnaissance I"],
+		"uniques": ["Personnel",
+			"Consumes [1] [Weapons]",
+			"[-15]% Strength for enemy [Personnel] units in adjacent [Land] tiles",
+			"[+15]% Strength for enemy [Personnel] units in adjacent [City center] tiles",
+			"[+15]% Strength when stacked with [Mandrill]",
+			"Can only attack [Land] tiles",
+			"Ranged attacks may be performed over obstacles",
+			"Religious Unit",
+			"Can [Spread Religion] [1] times",
+			"Only available <if [Gen Restoration Project] is constructed>"],
+		"promotions": ["Reconnaissance I"],
 		"attackSound": "shot"
 	},
 	{
@@ -324,17 +319,20 @@
 		"strength": 45,
 		"rangedStrength": 45,
 		"interceptRange": 1,
+		"religiousStrength": 1000,
 		"cost": 300,
 		"requiredTech": "Social Engineering",
 		"hurryCostModifier": 20,
-		"uniques": ["Personnel", "Consumes [1] [Weapons]", "[-20]% Strength for enemy [Personnel] units in adjacent [Land] tiles",
-					 "[+20]% Strength for enemy [Personnel] units in adjacent [City center] tiles",
-					 "[+20]% Strength when stacked with [Mandrill]",
-					 "Ranged attacks may be performed over obstacles",
-					 "Religious Unit",
-					 "Can [Spread Religion] [2] times",
-					 "Only available <if [Gen Restoration Project] is constructed> <if [Broadcast Network] is constructed>",
-],
+		"uniques": ["Personnel",
+			"Consumes [1] [Weapons]",
+			"[-20]% Strength for enemy [Personnel] units in adjacent [Land] tiles",
+			"[+20]% Strength for enemy [Personnel] units in adjacent [City center] tiles",
+			"[+20]% Strength when stacked with [Mandrill]",
+			"Ranged attacks may be performed over obstacles",
+			"Religious Unit",
+			"Can [Spread Religion] [2] times",
+			"Only available <if [Gen Restoration Project] is constructed> <if [Broadcast Network] is constructed>"
+		],
 		"promotions": ["Gas Mask"],
 		"attackSound": "shot"
 	},
@@ -345,11 +343,11 @@
 		"unitType": "Civilian",
 		"uniques": [
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [50] Influence",
-			"Can construct [Banana Business Area]",
+			"Can instantly construct a [Banana Business Area] improvement <by consuming this unit>",
 			"Great Person - [Gold]",
 			"Unbuildable",
 			"Uncapturable"
 		],
 		"movement": 1
-	},
-  ]
+	}
+]
