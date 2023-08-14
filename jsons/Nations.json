@@ -31,13 +31,13 @@
 			"Starts with [Secrets of the Past]",
 			"Starts with [Sect Knowledge]",
                         "[-1 Science] [in all cities] <before discovering [Education]>",
-			"[Great General] is earned [-50]% faster",
+			"[Great General] is earned [-50]% faster"
 		],
 		"cities": [
 			"Count Center", "History Town"
 		]
 	},
-{
+	{
 		"name": "The Mechanized",
 		"leaderName": "Command",
 		"adjective": ["Bot"],
@@ -227,24 +227,28 @@
 		"favoredReligion": "A Better Place",
  		/*"startIntroPart1": "'When the Cataclysm happened, there were many that felt lost. Like the world was too far gone. I always had hope, but sometimes it's hard to keep it. Ever since we came out, the world has felt like a jungle. Ruled by wild beasts.'",
 		"startIntroPart2": "'But I got lucky. I found my platoon. My family. I think people seem to forget it, but fundamental rights? Democracy? Those were the result of natural progress. Of us seeing what worked, and what didnt. And as long as we keep marching backwards like this, we will never be better. The world had given me a second chance. And so I give you one as well. We go around the world gathering people like us. That see the world not for what it. But for what it can be. A New Star.'",*/
-		"declaringWar": "Let's wipe out your puny race",
-		"attacked": "We will protect our homeland",
-		"defeated": "Guess you were not supposed to have fun in a wasteland. The world is an even worse place now",
-		"introduction": "Welcome to the new jungle, new face. Let this wasteland not be a new struggle, but rather a second chance. We love this world and you should do the same",
+		"declaringWar": "Let's wipe out your puny race.",
+		"attacked": "We will protect our homeland.",
+		"defeated": "Guess you were not supposed to have fun in a wasteland. The world is an even worse place now.",
+		"introduction": "Welcome to the new jungle, new face. Let this wasteland not be a new struggle, but rather a second chance. We love this world and you should do the same.",
 		"neutralHello": "Want a Banana?",
-		"hateHello": "Just wanna let you know we don't like your folks",
-		"tradeRequest": "The society of Apes brings forth this generous offer",
+		"hateHello": "Just wanna let you know we don't like your folks.",
+		"tradeRequest": "The society of Apes brings forth this generous offer.",
  		"outerColor": [106, 168, 0],
 		"innerColor": [100, 63, 0],
 		"style": "",
 		"uniqueName": "Social Brains",
 		"uniques": [
-                        "Starts with [Mining]","Starts with [Iron Working]",
-	 	        "[+1 Culture, +1 Gold] [in all non-occupied cities]","Upon capturing a city, receive [3] times its [Culture] production as [Culture] immediately",
-			"Gain [45] Influence with a [Kids Care Monkey] gift to a City-State","Production to [Culture] conversion in cities changed by [+100]%","Production to [Faith] conversion in cities changed by [+100]%"
+                        "Starts with [Mining]",
+			"Starts with [Iron Working]",
+	 	        "[+1 Culture, +1 Gold] [in all non-occupied cities]",
+			"Upon capturing a city, receive [3] times its [Culture] production as [Culture] immediately",
+			"Gain [45] Influence with a [Kids Care Monkey] gift to a City-State",
+			"Production to [Culture] conversion in cities changed by [+100]%",
+			"Production to [Faith] conversion in cities changed by [+100]%"
 		],
-		"cities": [
-			"Monkey Hill", "Banana Dreams", "Realm of the Jungle", "Ooga Way", "Monkey Island", "Ape's Pride", "Rainforrt", "Wasteland's Funpark", "Optimism", "Gorilla Range"
+		"cities":[
+			"Monkey Hill", "Banana Dreams", "Realm of the Jungle", "Ooga Way", "Monkey Island", "Ape's Pride", "Rainfort", "Wasteland's Funpark", "Optimism", "Gorilla Range", "Mandrill's Downtown", "Upbeat Lane", "Jungle Underway"
 					]
 	},
   ]
