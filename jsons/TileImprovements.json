@@ -3,29 +3,25 @@
 	{
 		"name": "Exposed Wire Trap",
     		"uniqueTo": "The Mechanized",
-		"terrainsCanBeBuiltOn": [
-			"Land"
-		],
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Consumes [1] [Power]",
 			"Pillaging this improvement yields approximately [+30 Gold]",
       			"Can be camouflaged as a Solar Collector, an Energy Farm, consuming Power instead of granting resources",
-      			"Can be camouflaged as Trenches and Forts, yielding same defence bonus but consumes Power",
+      			"Can be camouflaged as Trenches and Forts, yielding same defence bonus but consuming Power",
       			"Can also be camouflaged as City ruins and Survivor camps to trick players",
 			"Adjacent enemy units ending their turn take [20] damage",
-			"Unbuildable",
+			"Unbuildable"
 		],
 	},
 	{
 		"name": "Wire Trapped Solar collector",
-		"terrainsCanBeBuiltOn": [
-			"Badlands",
-			"Wasteland",
-			"Desert"
-		],
+		"uniqueTo": "The Mechanized",
+		"terrainsCanBeBuiltOn": ["Badlands","Wasteland","Desert"],
 		"production": 1,
 		"techRequired": "Electronics",
 		"uniques": [
+			"Wire Trapped",
 			"Consumes [1] [Power]",
 			"Pillaging this improvement yields approximately [+30 Gold]",
 			"Adjacent enemy units ending their turn take [20] damage",
@@ -35,11 +31,13 @@
 	},
 	{
 		"name": "Wire Trapped Energy farm",
+		"uniqueTo": "The Mechanized",
 		"terrainsCanBeBuiltOn": ["Swamp"],
 		"production": 1,
 		"gold": -1,
 		"techRequired": "Biology",
 		"uniques": [
+			"Wire Trapped",
 			"Can also be built on tiles adjacent to fresh water",
 			"Consumes [1] [Power]",
 			"Pillaging this improvement yields approximately [+30 Gold]",
@@ -50,16 +48,10 @@
 	},
 	{
 		"name": "Wire Trapped Trench",
-		"terrainsCanBeBuiltOn": [
-			"Badlands",
-			"Wasteland",
-			"Desert",
-			"Hill",
-			"Tundra",
-			"Permafrost"
-		],
-		"turnsToBuild": 4,
+		"uniqueTo": "The Mechanized",
+		"terrainsCanBeBuiltOn": ["Badlands","Wasteland","Desert","Hill","Tundra","Permafrost"],
 		"uniques": [
+			"Wire Trapped",
 			"Consumes [1] [Power]",
 			"Gives a defensive bonus of [25]%",
 			"Pillaging this improvement yields approximately [+30 Gold]",
@@ -70,16 +62,11 @@
 	},
 	{
 		"name": "Wire Trapped Fort",
-		"terrainsCanBeBuiltOn": [
-			"Badlands",
-			"Wasteland",
-			"Desert",
-			"Hill",
-			"Tundra",
-			"Permafrost"
-		],
+		"uniqueTo": "The Mechanized",
+		"terrainsCanBeBuiltOn": ["Badlands","Wasteland","Desert","Hill","Tundra","Permafrost"],
 		"techRequired": "Engineering",
 		"uniques": [
+			"Wire Trapped",
 			"Consumes [1] [Power]",
 			"Gives a defensive bonus of [50]%",
 			"Pillaging this improvement yields approximately [+30 Gold]",
@@ -90,8 +77,10 @@
 	},
 	{
 		"name": "Wire Trapped Survivor camp",
+		"uniqueTo": "The Mechanized",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
+			"Wire Trapped",
 			"Consumes [1] [Power]",
 			"Pillaging this improvement yields approximately [+30 Gold]",
 			"Adjacent enemy units ending their turn take [20] damage",
@@ -101,8 +90,10 @@
 	},
 	{
 		"name": "Wire Trapped City ruins",
+		"uniqueTo": "The Mechanized",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
+			"Wire Trapped",
 			"Consumes [1] [Power]",
 			"Gives a defensive bonus of [10]%",
 			"Pillaging this improvement yields approximately [+30 Gold]",
@@ -113,13 +104,12 @@
 	},
 ///Cyberapes
 	{
-		"name": "Jungle Replanting Zone"
+		"name": "Jungle Replanting Zone",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniqueTo": "Cyberapes",
 		"culture": 1,
 		"turnsToBuild": 10,
 		"uniques": [
-			//"Consumes [1] []",
 			"[+1 Culture, +1 Production] <with [1] to [6] neighboring [City center] tiles>",
 			"[+1 Food] <after discovering [Land Remediation]>",
 			"[+1 Production] <after discovering [Genetics]>",
