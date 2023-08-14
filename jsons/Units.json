@@ -8,14 +8,13 @@
 		"movement": 2,
 		"strength": 15,
 		"rangedStrength": 15,
-		"cost": 45,
+		"cost": 60,
 		"hurryCostModifier": 20,
 		"requiredTech": "Iron Working",
 		"obsoleteTech": "Rifling",
 		"upgradesTo": "Gunman",
 		"uniques": [
 			"Low Tech",
-			"[+33]% Strength <when attacking>",
 			"Invisible to non-adjacent units",
                         "Can see invisible [Land] units",
                         "May enter foreign tiles without open borders"
