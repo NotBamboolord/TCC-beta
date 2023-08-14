@@ -28,9 +28,9 @@
                 "replaces": "Great Farmer",
 		"unitType": "Civilian",
 		"uniques": [
-			"Can start an [16]-turn golden age",
-			"Can construct [Settlement]",
-                        "Can construct [Factory farm]",
+			"Can start an [8]-turn golden age <by consuming this unit>",
+			"Can instantly construct a [Settlement] improvement <by consuming this unit>",
+                        "Can instantly construct a [Factory Farm] improvement <by consuming this unit>",
 			"Great Person - [Food]",
 			"Unbuildable",
 			"Uncapturable"
@@ -43,13 +43,13 @@
                 "replaces": "Great Sage",
 		"unitType": "Civilian",
 		"uniques": [
-			"Can [Spread Religion] [4] times",
+			"Can [Spread Religion] [4] times <if it hasn't used other actions yet>",
 			"Removes other religions when spreading religion",
 			"May found a religion",
 			"May enhance a religion",
 			"May enter foreign tiles without open borders",
 			"When spreading religion to a city, gain [3] times the amount of followers of other religions as [Culture]",
-			"Can [Remove Foreign religions from your own cities] [2] times",
+			"Can [Remove Foreign religions from your own cities] [3] times <if it hasn't used other actions yet>",
 			"[-1] Sight",
 			"Great Person - [Faith]",
 			"Unbuildable",
@@ -68,8 +68,8 @@
 		"unitType": "Civilian",
 		"uniques": [
 			"Can start an [12]-turn golden age",
-			"Can construct [Oracle]",
-			"Can construct [Academy] <starting from the [Neofeudal era]>",
+			"Can instantly construct a [Preservator] improvement <by consuming this unit>",
+			"Can instantly construct a [Academy] improvement <by consuming this unit> <starting from the [Neofeudal era]>",
 			"Great Person - [History]",
 			"Unbuildable",
 			"Uncapturable"
@@ -82,8 +82,9 @@
                 "replaces": "Great Merchant",
 		"unitType": "Civilian",
 		"uniques": [
-			"Can undertake a trade mission with City-State, giving a large sum of gold and [90] Influence",
-			"Can start an [12]-turn golden age",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [60] Influence",
+			"Can hurry technology research",
+			"Can speed up the construction of a wonder",
 			"Great Person - [Economy]",
 			"Unbuildable",
 			"Uncapturable"
@@ -96,8 +97,8 @@
                 "replaces": "Great Engineer",
 		"unitType": "Civilian",
 		"uniques": [
-			"Can construct [Citadel]",
-			"Can construct [Manufactory]",
+			"Can instantly construct a [Manufactory] improvement <by consuming this unit> <if it hasn't used other actions yet>",
+			"Can instantly construct a [Citadel] improvement <by consuming this unit> <[2] times> <after which this unit is consumed>",
 			"Great Person - [Industry]",
 			"Unbuildable",
 			"Uncapturable"
@@ -111,10 +112,11 @@
 		"unitType": "Civilian",
 		"uniques": [
 			"[+25]% Strength bonus for [Military] units within [1] tiles",
-			"Can transform to [Death Laser]",
 			"Great Person - [War]",
 			"Unbuildable",
-			"Uncapturable"
+			"Uncapturable",
+			"This Unit upgrades for free including special upgrades <upon ending a turn in a [Foreign Land] tile>",
+			"May upgrade to [Death Laser] through ruins-like effects"
 		],
 		"movement": 2
 	},
@@ -126,16 +128,18 @@
 		"range": 1,
 		"movement": 2,
 		"strength": 100,
-		"rangedStrength": 10,
+		"rangedStrength": 32,
+		"interceptRange": 2,
 		"cost": 450,
-		"obsoleteTech": "The Wheel",
 		"uniques": [
 			"Can transform to [Death Counter]",
 			"[-90]% Strength <vs [Melee] units> <when defending>",
 			"[-2] Sight",
 			"Must set up to ranged attack",
-			"[+1500]% Strength <when attacking>",
+			"[+400]% Strength <when attacking>",
+			"Destroys tile improvements when attacking",
 			"Damage is ignored when determining unit Strength",
+			"[25]% chance to intercept air attacks",
 			"[+200]% maintenance costs",
 			"Can only heal by pillaging",
 			"Great Unit - War",
@@ -153,8 +157,8 @@
 		"uniqueTo": "TCC",
 		"unitType": "Civilian",
 		"uniques": [
-			"Can start an [16]-turn golden age",
-			//"Can construct [Landmark]",
+			"Can start an [12]-turn golden age",
+			"Can instantly construct a [Landmark] improvement <by consuming this unit>",
 			"Great Person - [Arts]",
 			"Unbuildable",
 			"Uncapturable"
@@ -188,7 +192,7 @@
 			"Can start an [8]-turn golden age",
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"[+25]% Strength bonus for [Gorilla] units within [3] tiles",
-			"Can construct [Citadel]",
+			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Great Person - [War]",
 			"Unbuildable",
 			"Uncapturable"
@@ -311,7 +315,7 @@
 					 "Can [Spread Religion] [1] times",
 					 "Only available <if [Gen Restoration Project] is constructed>"
 ],
-		//"promotions": ["Reconnaissance I"],
+		"religiousStrength": 500
 		"attackSound": "shot"
 	},
 	{
@@ -335,6 +339,7 @@
 					 "Only available <if [Gen Restoration Project] is constructed> <if [Broadcast Network] is constructed>",
 ],
 		"promotions": ["Gas Mask"],
+		"religiousStrength": 750
 		"attackSound": "shot"
 	},
 	{
@@ -344,7 +349,7 @@
 		"unitType": "Civilian",
 		"uniques": [
 			"Can undertake a trade mission with City-State, giving a large sum of gold and [50] Influence",
-			"Can construct [Banana Business Area]",
+			"Can instantly construct a [Banana Business Area] improvement <by consuming this unit>",
 			"Great Person - [Gold]",
 			"Unbuildable",
 			"Uncapturable"
