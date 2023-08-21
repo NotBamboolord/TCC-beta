@@ -11,16 +11,79 @@ BuildingIcons/Gen Restoration Project
   orig: 200, 200
   offset: 0, 0
   index: -1
+BuildingIcons/History Sustaining Center
+  rotate: false
+  xy: 1680, 1824
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Knowledge Processor
+  rotate: false
+  xy: 212, 148
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Local Business
+  rotate: false
+  xy: 1680, 1616
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Private Radio Station
+  rotate: false
+  xy: 1388, 1200
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Productivity Complex
+  rotate: false
+  xy: 1596, 1200
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Public Examinum
+  rotate: false
+  xy: 1804, 1408
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 BuildingIcons/Rainforest Restoration Project
   rotate: false
-  xy: 1180, 1324
+  xy: 1804, 1200
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Scriptum
+  rotate: false
+  xy: 712, 1064
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Secret Society
+  rotate: false
+  xy: 920, 1116
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Sectleading Chamber
   rotate: false
-  xy: 1596, 1408
+  xy: 1128, 1116
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingIcons/Underground Dome
+  rotate: false
+  xy: 1752, 992
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -48,182 +111,182 @@ ImprovementIcons/Jungle Replanting Zone
   index: -1
 ImprovementIcons/Wire Trapped City ruins
   rotate: false
-  xy: 1888, 1816
+  xy: 112, 40
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Wire Trapped Energy farm
   rotate: false
-  xy: 220, 40
+  xy: 1888, 1816
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Wire Trapped Fort
   rotate: false
-  xy: 1888, 1708
+  xy: 628, 432
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Wire Trapped Solar collector
   rotate: false
-  xy: 328, 40
+  xy: 220, 40
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Wire Trapped Survivor camp
   rotate: false
-  xy: 436, 40
+  xy: 1888, 1708
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 ImprovementIcons/Wire Trapped Trench
   rotate: false
-  xy: 544, 40
+  xy: 628, 324
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 MayaCalendar/1
   rotate: false
-  xy: 504, 798
+  xy: 1264, 1558
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 MayaCalendar/10
   rotate: false
-  xy: 712, 1040
+  xy: 1394, 934
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 MayaCalendar/11
   rotate: false
-  xy: 712, 982
+  xy: 562, 798
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 MayaCalendar/12
   rotate: false
-  xy: 712, 924
+  xy: 836, 740
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 MayaCalendar/13
   rotate: false
-  xy: 712, 866
+  xy: 736, 532
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 MayaCalendar/14
   rotate: false
-  xy: 1946, 1650
+  xy: 386, 90
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 MayaCalendar/15
   rotate: false
-  xy: 678, 798
+  xy: 628, 208
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 MayaCalendar/16
   rotate: false
-  xy: 628, 740
+  xy: 1452, 934
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 MayaCalendar/17
   rotate: false
-  xy: 628, 682
+  xy: 836, 682
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 MayaCalendar/18
   rotate: false
-  xy: 628, 624
+  xy: 736, 474
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 MayaCalendar/19
   rotate: false
-  xy: 628, 566
+  xy: 444, 90
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 MayaCalendar/2
   rotate: false
-  xy: 1264, 1558
+  xy: 1336, 934
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 MayaCalendar/3
   rotate: false
-  xy: 1888, 1650
+  xy: 504, 798
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 MayaCalendar/4
   rotate: false
-  xy: 562, 798
+  xy: 836, 798
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 MayaCalendar/5
   rotate: false
-  xy: 1322, 1558
+  xy: 736, 590
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 MayaCalendar/6
   rotate: false
-  xy: 620, 798
+  xy: 328, 90
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 MayaCalendar/7
   rotate: false
-  xy: 712, 1214
+  xy: 1888, 1650
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 MayaCalendar/8
   rotate: false
-  xy: 712, 1156
+  xy: 628, 266
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 MayaCalendar/9
   rotate: false
-  xy: 712, 1098
+  xy: 1322, 1558
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 NationIcons/TCC
   rotate: false
-  xy: 112, 40
+  xy: 628, 540
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -237,49 +300,49 @@ TileSets/FantasyHex/Tiles/Banana Business Area
   index: -1
 TileSets/FantasyHex/Tiles/Jungle Replanting Zone
   rotate: false
-  xy: 4, 4
+  xy: 764, 1288
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Wire Trapped City ruins
   rotate: false
-  xy: 764, 1288
+  xy: 920, 872
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Wire Trapped Energy farm
   rotate: false
-  xy: 686, 761
+  xy: 1336, 1287
   size: 32, 29
   orig: 32, 29
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Wire Trapped Fort
   rotate: false
-  xy: 628, 526
+  xy: 1960, 1160
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Wire Trapped Solar collector
   rotate: false
-  xy: 2012, 1960
+  xy: 4, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Wire Trapped Survivor camp
   rotate: false
-  xy: 44, 4
+  xy: 794, 612
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Wire Trapped Trench
   rotate: false
-  xy: 804, 1288
+  xy: 328, 54
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -349,28 +412,28 @@ UnitIcons/Gorilla Kid
   index: -1
 UnitIcons/Loudmouth
   rotate: false
-  xy: 1680, 1824
+  xy: 420, 564
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Mandrill
   rotate: false
-  xy: 212, 148
+  xy: 420, 356
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/NFT Monkey
   rotate: false
-  xy: 420, 564
+  xy: 1180, 1324
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitIcons/Noisemaker
   rotate: false
-  xy: 420, 356
+  xy: 1388, 1408
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -382,9 +445,16 @@ UnitIcons/Primal Gorilla
   orig: 492, 492
   offset: 0, 0
   index: -1
+UnitIcons/Secret Bowmen
+  rotate: false
+  xy: 712, 856
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
 UnitIcons/Sectleader
   rotate: false
-  xy: 1388, 1408
+  xy: 920, 908
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
@@ -419,42 +489,42 @@ UnitPromotionIcons/HQ Communication
   index: -1
 UnitPromotionIcons/Molotov
   rotate: false
-  xy: 1680, 1616
+  xy: 420, 148
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Pest Elimination
   rotate: false
-  xy: 420, 148
+  xy: 1596, 1408
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Strong Foot
   rotate: false
-  xy: 1388, 1200
+  xy: 1128, 908
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Surprising Expression
   rotate: false
-  xy: 1596, 1200
+  xy: 1336, 992
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Tank Breaker
   rotate: false
-  xy: 1804, 1408
+  xy: 1544, 992
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Wall Rammer
   rotate: false
-  xy: 1804, 1200
+  xy: 628, 648
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
