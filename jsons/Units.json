@@ -28,7 +28,7 @@
                 "replaces": "Great Farmer",
 		"unitType": "Civilian",
 		"uniques": [
-			"Can start an [8]-turn golden age <by consuming this unit>",
+            		"Empire enters a [12]-turn Golden Age <by consuming this unit>",
 			"Can instantly construct a [Settlement] improvement <by consuming this unit>",
                         "Can instantly construct a [Factory Farm] improvement <by consuming this unit>",
 			"Great Person - [Food]",
@@ -67,7 +67,7 @@
                 "replaces": "Great Scientist",
 		"unitType": "Civilian",
 		"uniques": [
-			"Can start an [12]-turn golden age",
+            		"Empire enters a [12]-turn Golden Age <by consuming this unit>",
 			"Can instantly construct a [Preservator] improvement <by consuming this unit>",
 			"Can instantly construct a [Academy] improvement <by consuming this unit> <starting from the [Neofeudal era]>",
 			"Great Person - [History]",
@@ -157,7 +157,7 @@
 		"uniqueTo": "TCC",
 		"unitType": "Civilian",
 		"uniques": [
-			"Can start an [12]-turn golden age",
+            		"Empire enters a [12]-turn Golden Age <by consuming this unit>",
 			"Can instantly construct a [Landmark] improvement <by consuming this unit>",
 			"Great Person - [Arts]",
 			"Unbuildable",
@@ -176,9 +176,12 @@
 		"hurryCostModifier": 20,
 		"replacementTextForUniques": "Can construct all kind of Wire Traps",
 		"uniques": [
-			"Can construct [Wire Trapped Solar collector]","Can construct [Wire Trapped Energy farm]",
-			"Can construct [Wire Trapped Trench]","Can construct [Wire Trapped Fort]",
-			"Can construct [Wire Trapped Survivor camp]","Can construct [Wire Trapped City ruins]"
+			"Can instantly construct a [Wire Trapped Solar collector] improvement <by consuming this unit>",
+			"Can instantly construct a [Wire Trapped Energy farm] improvement <by consuming this unit>",
+			"Can instantly construct a [Wire Trapped Trench] improvement <by consuming this unit>",
+			"Can instantly construct a [Wire Trapped Fort] improvement <by consuming this unit>",
+			"Can instantly construct a [Wire Trapped Survivor camp] improvement <by consuming this unit>",
+			"Can instantly construct a [Wire Trapped City ruins] improvement <by consuming this unit>",
 		]
 	},
 
