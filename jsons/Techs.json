@@ -10,7 +10,7 @@
 				"name": "Sect Knowledge",
 				"row": 7,
 				"quote": "",
-				"uniques": ["Only available <before discovering [The Wheel]>", "[+1 Faith] [in capital]"]
+				"uniques": ["Only available <before discovering [The Wheel]>"]
 			}
 		]
 	},
@@ -27,7 +27,7 @@
 				"row": 11,
 				"prerequisites": ["Sect Knowledge"],
 				"uniques": ["Starts the Long Count for TCC", "Free [Counter - History] appears"],
-				"quote": "Let us count every day after the bombs fell, so that History will never die!"
+				"quote": "Let us count every day after the bombs fell, so that our history won't fade out. Let us avoid mistakes of old by preserving what is at our feet"
 			},
 		]
 	},
