@@ -139,6 +139,7 @@
                 "uniqueTo": "TCC",
                 "replaces": "Machine Gun",
 		"unitType": "Siege",
+		"requiredTech": "Sect Knowledge",
 		"range": 1,
 		"movement": 2,
 		"strength": 100,
