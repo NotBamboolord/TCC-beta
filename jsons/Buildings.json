@@ -8,9 +8,8 @@
 		"cost": 1,
 		"specialistSlots": {"Politician": 1},
 		"uniques": [
-			"[3] free [Secret Bowman] units appear",
+			"[2] free [Secret Bowman] units appear",
 			"Can only be built [in capital]",
-			"Gain a free [Monument] [in this city]",
 			"[+20 Gold, +20 Culture] whenever a Great Person is expended",
 			"[+3 Culture, +2 Science, +1 Gold] for every known Natural Wonder"
 		],
