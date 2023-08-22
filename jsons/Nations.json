@@ -31,7 +31,8 @@
 			"Starts with [Secrets of the Past]",
 			"Starts with [Sect Knowledge]",
                         "[-1 Science] [in all cities] <before discovering [Education]>",
-			"[Great General] is earned [-50]% faster"
+			"[Great General] is earned [-50]% faster",
+			"[-50]% Great Person generation [in all cities] <before the [Industrial era]>"
 		],
 		"cities": [
 			"Count Center", "History Town"
