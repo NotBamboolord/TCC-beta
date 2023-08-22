@@ -105,6 +105,20 @@
 		],
 		"movement": 2
 	},
+        {
+		"name": "Counter - Arts",
+                "replaces": "Great Administrator",
+		"uniqueTo": "TCC",
+		"unitType": "Civilian",
+		"uniques": [
+            		"Empire enters a [12]-turn Golden Age <by consuming this unit>",
+			"Can instantly construct a [Landmark] improvement <by consuming this unit>",
+			"Great Person - [Arts]",
+			"Unbuildable",
+			"Uncapturable"
+		],
+		"movement": 2
+	},
 	{
 		"name": "Death Counter",
                 "uniqueTo": "TCC",
@@ -150,20 +164,6 @@
 		"promotions": [ "Promotion Nullifier"],
 		"hurryCostModifier": 20,
 		"attackSound": "phasers"
-	},
-        {
-		"name": "Counter - Arts",
-                "replaces": "Great Administrator",
-		"uniqueTo": "TCC",
-		"unitType": "Civilian",
-		"uniques": [
-            		"Empire enters a [12]-turn Golden Age <by consuming this unit>",
-			"Can instantly construct a [Landmark] improvement <by consuming this unit>",
-			"Great Person - [Arts]",
-			"Unbuildable",
-			"Uncapturable"
-		],
-		"movement": 2
 	},
 	{
 		"name": "Wire Planter",
