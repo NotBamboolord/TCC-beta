@@ -1,6 +1,6 @@
 [
-  
-	{
+	//Only for Civilopedia
+	/*{
 		"name": "Exposed Wire Trap",
     		"uniqueTo": "The Mechanized",
 		"terrainsCanBeBuiltOn": ["Land"],
@@ -13,7 +13,7 @@
 			"Adjacent enemy units ending their turn take [20] damage",
 			"Unbuildable"
 		],
-	},
+	},*/
 	{
 		"name": "Wire Trapped Solar collector",
 		"uniqueTo": "The Mechanized",
@@ -122,11 +122,13 @@
 	{
 		"name": "Banana Business Area"
 		"terrainsCanBeBuiltOn": ["Land"],
-		"gold": 4,
+		"gold": 3,
+		"food": 1,
 		"uniques": [
 			"Great Improvement",
-			"[+1 Gold] <with [1] to [6] neighboring [Jungle Replanting Zone] tiles>",
+			"[+1 Food] <with [1] to [6] neighboring [Jungle Replanting Zone] tiles>",
 			"[+2 Gold] <after discovering [Plastics]>",
+			"Gives a defensive bonus of [10]%",
 			"Pillaging this improvement yields approximately [+30 Gold]",
 			"Provides [1] [Bananas]",
 		]
@@ -149,23 +151,27 @@
 		"[+1 Gold] for each adjacent [Citadel]",
 		"[+1 Faith] for each adjacent [Seminary]",
 		"[+2 Faith] for each adjacent [Crystal Refinery]",
+		"[+1 Culture] for each adjacent [Preservator]",
+		"[+1 Culture] for each adjacent [Memorial Site]",
 		"Cannot be built on [Luxury resource] tiles",
 		"Pillaging this improvement yields approximately [+15 Culture]"
 		]
     },
 ///TCC
        {
-		"name": "Landmark",
+		"name": "Memorial Site",
 		"culture": 3,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 			"Great Improvement",
+			"[+1 Culture] <after discovering [Mining]>",
 			"[+1 Culture] <after discovering [Currency]>",
-			"[+1 Culture] <after discovering [Railroads]>",
+			"[+2 Culture] <after discovering [Railroads]>",
 			"[+1 Culture, +1 Happiness] <after discovering [Flight]>",
-			"[+2 Culture] <after discovering [Incentivization]>",
+			"[+1 Culture] <after discovering [Incentivization]>",
 			"[+1 Culture] <after discovering [Globalization]>",
 			"Can be built just outside your borders",
+			"Gives a defensive bonus of [10]%",
                         "Pillaging this improvement yields approximately [+20 Gold]",
 		]
 	},
@@ -182,6 +188,7 @@
 			"[+1 Culture] <after discovering [Education]>",
 			"[+1 Production] <after discovering [Laboratory]>",
 			"[+1 Science] <after discovering [Decryption]>",
+			"Only available <in [Land] tiles>",
 			"Does not need removal of [Forest]",
 			"Does not need removal of [Jungle]",
 			"Does not need removal of [Toxic Waste]",

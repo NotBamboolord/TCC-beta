@@ -5,17 +5,17 @@
 		"adjective": ["Counter"],
 		"startBias": ["Wasteland"],
 		"preferredVictoryType": "Scientific",
-		//"favoredReligion": "Humanism",
+		"favoredReligion": "Conservation",
 
-		/*"startIntroPart1": "'When the Cataclysm happened, there were many that felt lost. Like the world was too far gone. I always had hope, but sometimes it's hard to keep it. Ever since we came out, the world has felt like a jungle. Ruled by wild beasts.'",
-		"startIntroPart2": "'But I got lucky. I found my platoon. My family. I think people seem to forget it, but fundamental rights? Democracy? Those were the result of natural progress. Of us seeing what worked, and what didnt. And as long as we keep marching backwards like this, we will never be better. The world had given me a second chance. And so I give you one as well. We go around the world gathering people like us. That see the world not for what it. But for what it can be. A New Star.'",
-		"declaringWar": "*weep* Intruders to our desired place *weep* Die inferior! *weep*",
-		"attacked": {"The machines will crunch you","Your body will end in a feeding lab"}
-		"defeated": "The life of us began in a lab and sadly it will end there. My people will decay not knowing I will remain. Fractured and Powerless. This is not the future I desired for my new life. I guess humanity was never inferior.",
-		"introduction": "Hello Humanborn. Do you posess the interest of shaking hands with a living machina?",
-		"neutralHello": "*Meeeep* Hello my friend. Stay wired",
-		"hateHello": "*Im not gonna answer inferior beings like you*",
-		"tradeRequest": "The Artificial Intelligence has come up with this offer. It will surely be well thought",*/
+		//"startIntroPart1": "'When the Cataclysm happened, there were many that felt lost. Like the world was too far gone. I always had hope, but sometimes it's hard to keep it. Ever since we came out, the world has felt like a jungle. Ruled by wild beasts.'",
+		//"startIntroPart2": "'But I got lucky. I found my platoon. My family. I think people seem to forget it, but fundamental rights? Democracy? Those were the result of natural progress. Of us seeing what worked, and what didnt. And as long as we keep marching backwards like this, we will never be better. The world had given me a second chance. And so I give you one as well. We go around the world gathering people like us. That see the world not for what it. But for what it can be. A New Star.'",
+		"declaringWar": "History has told us war is usually not the way to go. But in these urgent times there can be an exception"
+		"attacked": "The counters deem you ready to become history", //"Your ignorance has lead you to repeat history again. I hope it won't end the same way again."
+		"defeated": "Without us and our memories in place, no one will prevent the world from making the same mistakes as before. No one will warn them as history repeats itself",
+		"introduction": "Welcome stranger of the new world, come have a talk with me. Enjoy the few words, as you will likely not here from me again. I am one of the people upholding the unfortunate remains of old history who record everything they see even to this day.",
+		"neutralHello": "Hello representative of a new nation. Please tell me all details of your ", //Anliegen
+		"hateHello": "Please speak fast when stating your intentions, I don't want to waste too much time on you", //"You shouldn't show up in a civilized place like this.",
+		"tradeRequest": "The Counters have already calculated the benefits of this offer. Please keep in mind this conversation has never happened.",
 
 		"outerColor": [61, 172, 199],
 		"innerColor": [0, 44, 189],
@@ -26,16 +26,13 @@
 			"Once The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count.",
 			"Double quantity of [Books] produced",
 			"Double quantity of [Data] produced",
-			"\"Borrows\" city names from other civilizations in the game",
 	          	"Starts with [Writing]",
-			"Starts with [Secrets of the Past]",
-			"Starts with [Sect Knowledge]",
                         "[-1 Science] [in all cities] <before discovering [Education]>",
 			"[Great General] is earned [-50]% faster",
 			"[-50]% Great Person generation [in all cities] <before the [Industrial era]>"
 		],
 		"cities": [
-			"Count Center", "History Town"
+			"Count Center", "History Town", "Knowledge Cavern", "Wisdom Waters", "Remembrance Ranch", "Woe of Worlds", "Conservation Cave", "Records Row", //Will add more referencing rl locations like "Berlin Remnants"
 		]
 	},
 	{
@@ -53,7 +50,7 @@
 		"introduction": "Hello Humanborn. Do you posess the interest of shaking hands with a living machina?",
 		"neutralHello": "*Meeeep* Hello my friend. Stay wired",
 		"hateHello": "*Im not gonna answer inferior beings like you*",
-		"tradeRequest": "The Artificial Intelligence has come up with this offer. It will surely be well thought",
+		"tradeRequest": "The Artificial Intelligence has come up with this offer. It will surely be well thought of",
  		//"outerColor": [144, 91, 54],
 		//"innerColor": [160, 208, 76],
 		"outerColor": [207, 130, 78],

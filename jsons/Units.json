@@ -23,6 +23,21 @@
 		"attackSound": "arrow"
 	},
 	{
+		"name": "Cavern Expander",
+		"unitType": "Civilian",
+		"uniqueTo": "TCC",
+		"replaces": "Civilian Convoy",
+		"movement": 2,
+		"cost": 160,
+		"uniques": [
+			"Founds a new city <by consuming this unit>",
+			"[+15] HP when healing","Can move immediately once bought","Unit will heal every turn, even if it performs an action",
+			"Uncapturable","Can pass through impassable tiles",
+			"Invisible to others","May enter foreign tiles without open borders",
+		],
+		"hurryCostModifier": 20
+	},
+	{
 		"name": "Counter - Food",
                 "uniqueTo": "TCC",
                 "replaces": "Great Farmer",
@@ -30,7 +45,7 @@
 		"uniques": [
             		"Empire enters a [12]-turn Golden Age <by consuming this unit>",
 			"Can instantly construct a [Settlement] improvement <by consuming this unit>",
-                        "Can instantly construct a [Factory Farm] improvement <by consuming this unit>",
+                        "Can instantly construct a [Factory farm] improvement <by consuming this unit>",
 			"Great Person - [Food]",
 			"Unbuildable",
 			"Uncapturable"
@@ -43,13 +58,13 @@
                 "replaces": "Great Sage",
 		"unitType": "Civilian",
 		"uniques": [
-			"Can [Spread Religion] [4] times <if it hasn't used other actions yet>",
+			"Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
 			"Removes other religions when spreading religion",
 			"May found a religion",
 			"May enhance a religion",
 			"May enter foreign tiles without open borders",
 			"When spreading religion to a city, gain [3] times the amount of followers of other religions as [Culture]",
-			"Can [Remove Foreign religions from your own cities] [3] times <if it hasn't used other actions yet>",
+			"Can remove other religions from cities <in [Friendly] tiles> <for [2] movement> <once>"
 			"[-1] Sight",
 			"Great Person - [Faith]",
 			"Unbuildable",
@@ -112,7 +127,7 @@
 		"unitType": "Civilian",
 		"uniques": [
             		"Empire enters a [12]-turn Golden Age <by consuming this unit>",
-			"Can instantly construct a [Landmark] improvement <by consuming this unit>",
+			"Can instantly construct a [Memorial Site] improvement <by consuming this unit>",
 			"Great Person - [Arts]",
 			"Unbuildable",
 			"Uncapturable"
@@ -129,7 +144,9 @@
 			"Great Person - [War]",
 			"Unbuildable",
 			"Uncapturable",
-			"This Unit upgrades for free including special upgrades <upon ending a turn in a [Foreign Land] tile>",
+			"Can transform to [Death Laser]",
+			"Can be earned through combat",
+			"This Unit upgrades for free including special upgrades <upon ending a turn in a [Foreign Land] tile> <for [AI player]>",
 			"May upgrade to [Death Laser] through ruins-like effects"
 		],
 		"movement": 2
@@ -139,7 +156,6 @@
                 "uniqueTo": "TCC",
                 "replaces": "Machine Gun",
 		"unitType": "Siege",
-		"requiredTech": "Sect Knowledge",
 		"range": 1,
 		"movement": 2,
 		"strength": 100,
@@ -153,7 +169,7 @@
 			"Must set up to ranged attack",
 			"[+400]% Strength <when attacking>",
 			"Destroys tile improvements when attacking",
-			"Damage is ignored when determining unit Strength",
+			"No damage penalty for wounded units",
 			"[25]% chance to intercept air attacks",
 			"[+200]% maintenance costs",
 			"Can only heal by pillaging",
@@ -193,7 +209,7 @@
 		"replaces": "Great General",
 		"uniqueTo": "Cyberapes",
 		"uniques": [
-			"Can start an [8]-turn golden age",
+			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
 			"[+15]% Strength bonus for [Military] units within [2] tiles",
 			"[+25]% Strength bonus for [Gorilla] units within [3] tiles",
 			"Can instantly construct a [Citadel] improvement <by consuming this unit>",
@@ -220,7 +236,7 @@
 			"No defensive terrain bonus",
 			"[+50]% Strength <vs [Armor] units>",
 			"[+150]% Strength <vs cities> <when attacking>",
-			"May withdraw before melee ([20]%)",
+			"Withdraws before melee combat <with [20]% chance>",
 			"Consumes [1] [Weapons]",
 			"[-1] Sight",
 			"Only available <if [Gen Restoration Project] is constructed>"
@@ -316,7 +332,7 @@
 					 "Can only attack [Land] tiles",
 					 "Ranged attacks may be performed over obstacles",
 					 "Religious Unit",
-					 "Can [Spread Religion] [1] times",
+					 "Can Spread Religion <for [4] movement> <once>",
 					 "Only available <if [Gen Restoration Project] is constructed>"
 ],
 		"religiousStrength": 500
@@ -339,7 +355,7 @@
 					 "[+20]% Strength when stacked with [Mandrill]",
 					 "Ranged attacks may be performed over obstacles",
 					 "Religious Unit",
-					 "Can [Spread Religion] [2] times",
+					 "Can Spread Religion <for [4] movement> <[2] times>",
 					 "Only available <if [Gen Restoration Project] is constructed> <if [Broadcast Network] is constructed>",
 ],
 		"promotions": ["Gas Mask"],

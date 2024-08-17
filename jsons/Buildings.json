@@ -9,7 +9,7 @@
 		"specialistSlots": {"Politician": 1},
 		"uniques": [
 			"[2] free [Secret Bowman] units appear",
-			"Can only be built [in capital]",
+			"Can only be built <in [in capital] cities>",
 			"[+20 Gold, +20 Culture] whenever a Great Person is expended",
 			"[+3 Culture, +2 Science, +1 Gold] for every known Natural Wonder"
 		],
@@ -18,6 +18,22 @@
 			{
 				"text": "text (quote)",
 			},
+		]
+	},
+	{
+		"name": "Search for Remains",
+                "uniqueTo": "TCC",
+                "replaces": "Search for Survivors",
+		"cost": 30,
+		"isNationalWonder": true,
+		"uniques": [
+			"[1] free random researchable Tech(s) from the [Decivilized era]",
+			"Provides [1] [Fungus]",
+			"Reveal up to [2] [Artifacts] within a [8] tile radius",
+			"Reveal up to [1] [Electronics] within a [6] tile radius",
+			"Reveal up to [1] [Machine Parts] within a [6] tile radius",
+			"Reveal up to [3] [Metal] within a [8] tile radius",
+			"Reveal up to [3] [Scrap] within a [8] tile radius",
 		]
 	},
         {
@@ -86,6 +102,8 @@
 	},
 {
 		"name": "Literature School",
+                "uniqueTo": "TCC",
+                "replaces": "Public School",
 		"maintenance": 1,
                 "faith": 1,
 		"hurryCostModifier": 0,
@@ -142,7 +160,7 @@
 		"maintenance": 0,
 		"hurryCostModifier": 0,
 		"uniques": [
-                        "2 Entrepreneur Complex",
+                        "2 Entrepreneur Slots",
 			"Only available <in cities with a [Library]>",
 			"Enables construction of [advanced] units",
 			"[+3 Production] [in this city] <with [Power]>",
@@ -205,7 +223,7 @@
 		"uniques": [
 			"Can breed and raise stronger Apes",
 			"New [Gorilla] units start with [15] Experience [in all cities]",
-			"Can only be built [in capital]",
+			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Rainforest Restoration Project]>",
 			"Destroyed when the city is captured"
 		]
@@ -228,7 +246,7 @@
 			"[+2 Faith] from [Jungle Replanting Zone] tiles [in holy cities]",
 			"[NFT Monkey] is earned [+100]% faster",
 			"[+1 Food] from every [Merchant]",
-			"Can only be built [in capital]",
+			"Can only be built <in [in capital] cities>",
 			"Only available <in cities without a [Gen Restoration Project]>",
 			"Destroyed when the city is captured",
 		]

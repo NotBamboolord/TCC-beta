@@ -13,7 +13,7 @@
 	},
 	{
 		"name": "Strong Foot",
-		"uniques": ["[+10]% Strength <vs cities> <when defending>","May withdraw before melee ([20]%)"],
+		"uniques": ["[+10]% Strength <vs cities> <when defending>","Withdraws before melee combat <with [20]% chance>"],
 		"unitTypes": [
 			"Gorilla"
 		],
